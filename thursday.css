@@ -180,49 +180,61 @@
 	}
 
 
-	#outerCircle{
-		border-radius: 70%;
-		border: 1px solid #2D2E40;
-		width: 300px;
-		height: 300px;
-		position: absolute;
-		z-index: 1;
-		
-		left: 60px;
-		top: 200px;
+#badge{
+
+	padding: 20px;
+	position: absolute;
+	/* padding-left: 50px; */
+	top: 5px;
+	left: 160px;
+
+}
+
+
+
+#outerCircle{
+	border-radius: 70%;
+	border: 1px solid #2D2E40;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	
+	
+	left: 80px;
+	top: 200px;
 		
 	}
 
-	#innerCircle{
-		border-radius: 510px;
-		border: 1px solid #2D2E40;
-		
-		width: 250px;
-		height: 250px;
-		position: absolute;
-		z-index: 2;
-		left: 84px;
-		top:225px;
-		
-	}
+#innerCircle{
+	border-radius: 510px;
+	border: 1px solid #2D2E40;
+	
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	
+	left: 104px;
+	top:225px;
+	
+}
 
 
-	#topSquare{
-		
-		width: 326px;
-		height: 60px;
-		border-radius: 5px;
-		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
-		position: absolute;
-		z-index: 3;
-		top: 241px;
-		left: 50px;
+#topSquare{
+	
+	width: 326px;
+	height: 60px;
+	border-radius: 5px;
+	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+	box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+	position: absolute;
+	
+	top: 241px;
+	left: 60px;
 
-	}
+}
 
-	#bottomSquare{
-		padding-left: 30px;
+#bottomSquare{
+		padding-left: 40px;
 		padding-right: 30px;
 		position: absolute;
 		top: 300px
@@ -230,58 +242,109 @@
 	}
 
 
-	#extensibleTitle{
-		color: #1F3E5A;
-		text-align: center;
-		font-family: Overpass SemiBold;
-		font-size: 28px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: 32px;
+#smallTopSquare{
 
-		padding: 50px;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+/* 
+	z-index: 4; */
+	top: 270px;
+	left: 80px;
+	background-color: white;
+
+}
+
+#bigTopSquare{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	/* z-index: 4; */
+	top: 270px;
+	left: 200px;
+	background-color: white;
+
+}
+
+
+#topSmallCircle{
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	border: 2px solid;
+	position: absolute;
+	z-index: 5;
+	top: 277px;
+	left: 90px;
+	background-color: black;
+}
+
+
+
+#curvyLine{
+	position: absolute;
+	/* z-index: 5; */
+	top: 300px;
+	left: 180px;
+
+}
+
+
+
+
+
+#extensibleTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 50px;
+}
+
+
+#extensibleText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 20px;
+	text-align: justify;
 	}
 
-	#extensibleText{
-		color: #4C5862;
-text-align: center;
-font-family: Overpass;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 28px;
-letter-spacing: 0.5px;
-padding: 20px;
-text-align: justify;
-	}
 
 
 
 
-
-	#robustTitle{
-		color: #1F3E5A;
-text-align: center;
-font-family: Overpass SemiBold;
-font-size: 28px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px;
-padding: 50px;
+#robustTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 50px;
 
 	}
 
 
-	#robustText{
-		color: #4C5862;
-text-align: center;
-font-family: Overpass;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 28px;
-letter-spacing: 0.5px;
-padding: 50px;
+#robustText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 50px;
 
 	}
 
