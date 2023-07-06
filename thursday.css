@@ -16,10 +16,12 @@
 		position: relative;
 		border-radius: 0px 0px 0px 100px;
 		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		z-index: 1;
+		z-index: -2;
 	}
 
-	#navLogoStrips{
+
+
+	#navLogoStripes{
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -40,7 +42,9 @@
 		letter-spacing: -1.08px;
 		padding-top: 100px;
 		padding-bottom: 20px;
+
 	}
+
 
 	#navText{
 		color: #FFF;
@@ -62,7 +66,7 @@
 		flex-direction: row;
 		gap: 20px;
 		justify-content: center;
-		padding-bottom: 170px;
+		padding-bottom: 100px;
 
 	}
 
@@ -90,28 +94,32 @@
 		border-radius: 28px;
 		border: 1px solid #FFF;
 		padding: 10px;
+		
 	}
 
 
 
 	.raisedItems{
+		position:relative;
 		z-index: 3;
 	}
 
 	.backgroundSquare{
-		z-index: 2;
+		z-index: -1;
 		position: absolute;
-		padding: 100px;
+		
+		
 	}
 
 
 	#backgroundSquare1{
 		
-		transform: rotate(22deg);
+		transform: rotate(180deg);
 		border-radius: 0px 0px 100px 0px;
 		background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
-		top: 90px;
-		right: 10px;
+		bottom: 0px;
+		right: 0px;
+		padding: 50px;
 		
 		
 		
@@ -122,9 +130,11 @@
 
 		
 		transform: rotate(-22deg);
-		border-radius: 393.383px;
+		border-radius: 370.383px;
 		background: linear-gradient(50deg, #FF8F71 0%, #FF3E55 100%);
-		top: 50px;
+		bottom: 0px;
+		left: -90px;
+		padding: 170px;
 
 	
 	}
@@ -135,6 +145,7 @@
 		border-radius: 0px 0px 100px 0px;
 		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 		top: 120px;
+		padding: 170px;
 	
 
 	}
@@ -163,12 +174,270 @@
 		padding-left: 50px;
 		padding-right: 50px;
 		padding-bottom: 40px;
+
+
+	}
+
+
+	#outerCircle{
+		border-radius: 100px;
+		border: 1px solid #2D2E40;
+		opacity: 0.25px;
+		padding: 80px;
+	}
+
+	#innerCircle{
+		border-radius: 510px;
+		border: 1px solid #2D2E40;
+		opacity: 0.5px;
+		padding: 60px;
+	}
+
+
+	#topSquare{
+		padding-top: 80px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border: solid green;
+	
+
+		border-radius: 5px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+
+	}
+
+	#bottomSquare{
+		padding-left: 30px;
+		padding-right: 30px;
+
+	}
+
+
+	#extensibleTitle{
+		color: #1F3E5A;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+
+		padding: 50px;
+	}
+
+	#extensibleText{
+		color: #4C5862;
+text-align: center;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+padding: 20px;
+text-align: justify;
+	}
+
+
+
+
+
+	#robustTitle{
+		color: #1F3E5A;
+text-align: center;
+font-family: Overpass SemiBold;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+padding: 50px;
+
+	}
+
+
+	#robustText{
+		color: #4C5862;
+text-align: center;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+padding: 50px;
+
+	}
+
+
+	#twoPhones{
+		display: flex;
+		flex-direction: row;
 		
 
+		padding: 30px;
+		
 	}
 
-	
+	#phoneOne{
+		fill: #1D1D25;
+		filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
 	}
+
+	#phoneTwo{
+		fill: #1D1D25;
+filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
+
+	}
+
+	#card{
+		border-radius: 0px 100px;
+background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+
+	}
+
+
+#cardTitle{
+padding: 30px;
+	color: #FFF;
+text-align: center;
+font-family: Overpass SemiBold;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -1.2px;
+}
+
+
+
+#cardText{
+	padding: 20px;
+	text-align: justify;
+	color: #FFF;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+
+}
+
+
+
+#laptopScreen{
+	padding: 20px;
+}
+
+
+#laptopKeyboard{
+	border-radius: 3px 3px 0px 0px;
+background: #52526F;
+}
+
+
+#freeOpenTitle{
+	color: #1F3E5A;
+text-align: center;
+font-family: Overpass SemiBold;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+padding: 40px;
+
+}
+
+#freeOpenText{
+
+	color: #4C5862;
+text-align: center;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+padding: 20px;
+text-align: justify;
+
+}
+
+#toolingTitle{
+	color: #1F3E5A;
+text-align: center;
+font-family: Overpass SemiBold;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+padding: 40px;
+
+}
+
+#toolingText{
+	color: #4C5862;
+text-align: center;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+padding: 20px;
+text-align: justify;
+
+}
+
+
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 0px 100px 0px 0px;
+	background: #24242C;
+	padding: 50px;
+}
+
+footer img{
+	padding: 50px;
+
+
+}
+
+
+#footerLinkTitle{
+	color: #FFF;
+text-align: center;
+font-family: Ubuntu;
+font-size: 20px;
+font-style: normal;
+font-weight: bolder;
+line-height: 33px;
+padding: 40px;
+text-transform: capitalize;
+}
+
+
+#footerLinkItems{
+	color: #FFF;
+text-align: center;
+font-family: Ubuntu;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+padding: 10px;
+text-transform: capitalize;
+}
+
+
+
+
+
+}
 	
 	
 	
@@ -198,7 +467,7 @@
 	
 	
 	nav{
-		padding: 60px;
+		padding: 20px;
 		display: flex;
 		flex-direction: column;
 		position: relative;
@@ -212,6 +481,18 @@
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
+
+
+	/* #logo{
+		margin: 200px;
+
+	}
+
+
+	#navStripes{
+		width: 20px;
+	} */
 
 	#navProduct{
 		display: flex;
@@ -330,7 +611,6 @@
 	.backgroundSquare{
 		z-index: 2;
 		position: absolute;
-		padding: 100px;
 	}
 
 
@@ -339,8 +619,9 @@
 		transform: rotate(22deg);
 		border-radius: 0px 0px 100px 0px;
 		background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
-		top: 90px;
+		bottom: 0px;
 		right: 10px;
+		padding:30px;
 		
 		
 		
@@ -353,7 +634,7 @@
 		transform: rotate(-22deg);
 		border-radius: 393.383px;
 		background: linear-gradient(50deg, #FF8F71 0%, #FF3E55 100%);
-		top: 50px;
+		top: 0px;
 
 	
 	}
@@ -363,7 +644,7 @@
 		transform: rotate(-158deg);
 		border-radius: 0px 0px 100px 0px;
 		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		top: 120px;
+		bottom: 100px;
 	
 
 	}
