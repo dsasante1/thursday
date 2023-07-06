@@ -141,11 +141,12 @@
 
 	#backgroundSquare3{
 
-		transform: rotate(-158deg);
+		transform: rotate(20deg);
 		border-radius: 0px 0px 100px 0px;
 		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		top: 120px;
-		padding: 170px;
+		top: 0px;
+		left: 20px;
+		padding: 190px;
 	
 
 	}
