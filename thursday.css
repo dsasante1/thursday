@@ -1,8 +1,391 @@
- 
+@media only screen and (max-width: 800px) {
 	*{
 		margin: 0px;
 		padding: 0px;
 		box-sizing: border-box;
 	}
 	
+	#desktop{
+		display: none;
+	}
+	
+	nav{
+		padding: 60px;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		border-radius: 0px 0px 0px 100px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		z-index: 1;
+	}
+
+	#navLogoStrips{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+
+
+
+
+	#navTitle{
+		color: #FFF;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		letter-spacing: -1.08px;
+		padding-top: 100px;
+		padding-bottom: 20px;
+	}
+
+	#navText{
+		color: #FFF;
+		text-align: center;
+		font-family: Overpass;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+
+
+
+	#navButtons{
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		justify-content: center;
+		padding-bottom: 170px;
+
+	}
+
+	#leftButton{
+		color: #FF505C;
+		text-align: right;
+		font-family: Ubuntu;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		border-radius: 28px;
+		background: #FFF;
+		padding: 10px;
+	}
+
+	#rightButton{
+		color: #FFF;
+		text-align: right;
+		font-family: Ubuntu;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		border-radius: 28px;
+		border: 1px solid #FFF;
+		padding: 10px;
+	}
+
+
+
+	.raisedItems{
+		z-index: 3;
+	}
+
+	.backgroundSquare{
+		z-index: 2;
+		position: absolute;
+		padding: 100px;
+	}
+
+
+	#backgroundSquare1{
+		
+		transform: rotate(22deg);
+		border-radius: 0px 0px 100px 0px;
+		background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
+		top: 90px;
+		right: 10px;
+		
+		
+		
+	
+	}
+
+	#backgroundSquare2{
+
+		
+		transform: rotate(-22deg);
+		border-radius: 393.383px;
+		background: linear-gradient(50deg, #FF8F71 0%, #FF3E55 100%);
+		top: 50px;
+
+	
+	}
+
+	#backgroundSquare3{
+
+		transform: rotate(-158deg);
+		border-radius: 0px 0px 100px 0px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		top: 120px;
+	
+
+	}
+	
+
+	#midSection{
+		
+		display: flex;
+		flex-direction: column;
+		padding-top: 100px;
+		padding-left: 20px;
+		padding-right: 20px;
+		position: relative;
+		
+	}
+
+	#futureDesign{
+		color: #1F3E5A;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		letter-spacing: -0.84px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 40px;
+		
+
+	}
+
+	
+	}
+	
+	
+	
+	/* desktop screens */
+	
+	
+	@media only screen and (min-width: 800px) {
+	
+	
+	
+	
+	
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	
+	#desktop{
+		display: block;
+	}
+	
+	
+	#mobile{
+		display: none;
+	}
+	
+	
+	nav{
+		padding: 60px;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		border-radius: 0px 0px 0px 100px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		z-index: 1;
+	}
+
+	#navLogoStrips{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#navProduct{
+		display: flex;
+		flex-direction: row;
+		gap: 10px;
+	}
+
+	#navProduct span{
+		color: #FFF;
+		font-family: Ubuntu;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+
+	#navSignUp{
+
+	}
+
+	#login{
+		color: #FFF;
+		text-align: right;
+		font-family: Ubuntu;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+	}
+
+	#signUp{
+		color: #FF505C;
+		text-align: right;
+		font-family: Ubuntu;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		border-radius: 28px;
+		background: #FFF;
+		padding: 10px;
+	}
+
+
+
+	#navTitle{
+		color: #FFF;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		letter-spacing: -1.08px;
+		padding-top: 100px;
+		padding-bottom: 20px;
+	}
+
+	#navText{
+		color: #FFF;
+		text-align: center;
+		font-family: Overpass;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+
+
+
+	#navButtons{
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		justify-content: center;
+		padding-bottom: 170px;
+
+	}
+
+	#leftButton{
+		color: #FF505C;
+		text-align: right;
+		font-family: Ubuntu;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		border-radius: 28px;
+		background: #FFF;
+		padding: 10px;
+	}
+
+	#rightButton{
+		color: #FFF;
+		text-align: right;
+		font-family: Ubuntu;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		border-radius: 28px;
+		border: 1px solid #FFF;
+		padding: 10px;
+	}
+
+
+
+	.raisedItems{
+		z-index: 3;
+	}
+
+	.backgroundSquare{
+		z-index: 2;
+		position: absolute;
+		padding: 100px;
+	}
+
+
+	#backgroundSquare1{
+		
+		transform: rotate(22deg);
+		border-radius: 0px 0px 100px 0px;
+		background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
+		top: 90px;
+		right: 10px;
+		
+		
+		
+	
+	}
+
+	#backgroundSquare2{
+
+		
+		transform: rotate(-22deg);
+		border-radius: 393.383px;
+		background: linear-gradient(50deg, #FF8F71 0%, #FF3E55 100%);
+		top: 50px;
+
+	
+	}
+
+	#backgroundSquare3{
+
+		transform: rotate(-158deg);
+		border-radius: 0px 0px 100px 0px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		top: 120px;
+	
+
+	}
+
+
+	#futureDesign{
+		color: #1F3E5A;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		letter-spacing: -0.84px;
+		padding-left: 50px;
+		padding-right: 50px;
+
+	}
+
+	
+	
+	
+	
+	}
 	
