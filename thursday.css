@@ -146,7 +146,7 @@
 		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 		top: 0px;
 		left: 20px;
-		padding: 190px;
+		padding: 140px;
 	
 
 	}
@@ -180,9 +180,13 @@
 	}
 
 
-#badge{
 
-	padding: 20px;
+
+
+#badge{
+	position: realtive;
+
+
 
 
 }
@@ -197,8 +201,8 @@
 	position: absolute;
 	
 	
-	left: 60px;
-	top: 200px;
+	margin-left: 30px;
+	margin-top: 20px;
 		
 	}
 
@@ -210,31 +214,34 @@
 	height: 250px;
 	position: absolute;
 	
-	left: 85px;
-	top:225px;
+	margin-left: 58px;
+	top:270px;
 	
 }
 
 
 #topSquare{
 	
-	width: 326px;
+	width: 327px;
 	height: 60px;
 	border-radius: 5px;
 	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 	box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
 	position: absolute;
 	
-	top: 241px;
-	left: 52px;
+
+	margin-top: 50px;
+	margin-left: 20px;
 
 }
 
 #bottomSquare{
-		padding-left: 10px;
-		padding-right: 30px;
+		margin-top: 110px;
+		margin-left: 20px;
 		position: absolute;
-		top: 300px
+		width: 326px;
+		height: 153.475px;
+		background-color: #2D2E40;
 
 	}
 
@@ -246,8 +253,8 @@
 	position: absolute;
 /* 
 	z-index: 4; */
-	top: 270px;
-	left: 90px;
+	margin-left: 50px;
+	margin-top: 90px;
 	background-color: white;
 
 }
@@ -257,8 +264,9 @@
 	height: 150px;
 	position: absolute;
 	/* z-index: 4; */
-	top: 270px;
-	left: 190px;
+
+	margin-top: 80px;
+	margin-left: 160px;
 	background-color: white;
 
 }
@@ -271,8 +279,9 @@
 	border: 2px solid;
 	position: absolute;
 	z-index: 5;
-	top: 277px;
-	left: 100px;
+
+	margin-top: 100px;
+	margin-left: 60px;
 	background-color: black;
 }
 
@@ -281,8 +290,8 @@
 #curvyLine{
 	position: absolute;
 	/* z-index: 5; */
-	top: 300px;
-	left: 180px;
+	margin-top: 100px;
+	margin-left: 130px;
 
 }
 
@@ -350,24 +359,32 @@
 	#twoPhones{
 		display: flex;
 		flex-direction: row;
+		position: relative;
+		padding: 50px;
 		
 
 		/* padding: 30px; */
 		
 	}
 
-	#phoneOne{
-		fill: #1D1D25;
-		filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
-		/* left: 10px;
-		position: relative; */
-	}
+#phoneOne{
+	fill: #1D1D25;
+	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
+	left: 5px;
+	position: absolute; 
+	border: solid;
+	width: 150px;
+	top: 10px;
 
-	#phoneTwo{
-		fill: #1D1D25;
-filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
-		/* left: 100px;
-		position: relative; */
+}
+
+#phoneTwo{
+	fill: #1D1D25;
+	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
+	left: 130px;
+	position: relative;
+	border: solid;
+	width: 150px;
 
 	}
 
@@ -552,15 +569,21 @@ text-transform: capitalize;
 	display: none;
 }
 
+body{
+	width: 1200px;
+}
+
+
 
 nav{
-	padding: 20px;
+	padding: 40px;
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	border-radius: 0px 0px 0px 100px;
 	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 	z-index: 1;
+	
 }
 
 #navLogoStrips{
@@ -638,6 +661,8 @@ nav{
 		line-height: normal;
 		letter-spacing: -1.08px;
 		padding-top: 100px;
+		padding-left: 20px;
+		padding-right: 20px;
 		padding-bottom: 20px;
 	}
 
@@ -661,7 +686,11 @@ nav{
 		flex-direction: row;
 		gap: 20px;
 		justify-content: center;
-		padding-bottom: 170px;
+		padding-bottom: 100px;
+		padding-top: 2px;
+		padding-right: 50px;
+		padding-left: 50px;
+
 
 	}
 
@@ -742,7 +771,7 @@ nav{
 		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 		top: 0px;
 		right: 0px;
-		padding: 100px;
+		padding: 90px;
 	
 
 	}
@@ -753,6 +782,7 @@ nav{
 		flex-direction: column;
 		justify-content: center;
 		gap: 30px;
+		
 	}
 
 
@@ -785,8 +815,77 @@ nav{
 		display: flex;
 		flex-direction: column;
 		position: relative;
+		padding-left: 100px;
+		padding-right: 300px;
 	}
 	
+	
+	
+	
+	#extensibleTitle{
+		color: #1F3E5A;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		padding: 50px;
+
+		
+	
+		
+	}
+	
+	
+	#extensibleText{
+		color: #4C5862;
+		text-align: center;
+		font-family: Overpass;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 28px;
+		letter-spacing: 0.5px;
+		text-align: justify;
+		padding: 50px;
+
+
+		
+		}
+	
+	
+	
+	
+	
+	#robustTitle{
+		color: #1F3E5A;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		padding: 50px;
+	
+		
+	
+		}
+	
+	
+	#robustText{
+		color: #4C5862;
+		text-align: center;
+		font-family: Overpass;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 28px;
+		letter-spacing: 0.5px;
+		padding: 50px;
+	
+	
+		}
 
 
 
@@ -900,83 +999,19 @@ nav{
 	
 	
 	
-	
-	
-	#extensibleTitle{
-		color: #1F3E5A;
-		text-align: center;
-		font-family: Overpass SemiBold;
-		font-size: 28px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: 32px;
-		padding-top:25px;
-		padding-bottom: 25px;
-		margin: 20px;
-	
-		
-	}
-	
-	
-	#extensibleText{
-		color: #4C5862;
-		text-align: center;
-		font-family: Overpass;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 300;
-		line-height: 28px;
-		letter-spacing: 0.5px;
-		padding-right: 100px;
-		text-align: justify;
-		margin: 20px;
-		}
-	
-	
-	
-	
-	
-	#robustTitle{
-		color: #1F3E5A;
-		text-align: center;
-		font-family: Overpass SemiBold;
-		font-size: 28px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: 32px;
-		padding: 30px;
-		margin: 20px;
-	
-		}
-	
-	
-	#robustText{
-		color: #4C5862;
-		text-align: center;
-		font-family: Overpass;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 300;
-		line-height: 28px;
-		letter-spacing: 0.5px;
-		padding-left: 100px;
-		padding-right: 100px;
-	
-	
-		}
-	
 
-	#phoneCard{
+#phoneCard{
 
 	border-radius: 0px 100px;
-background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
-padding-top: 50px;
-padding-left: 100px;
-padding-right: 100px;
-gap: 50px;
-height: 320px;
-position: relative;
-z-index: 1;
+	background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	height: 260px;
+	position: relative;
+	z-index: 1;
+	margin-top: 50px;
 
 	}
 
@@ -990,23 +1025,25 @@ z-index: 1;
 	line-height: normal;
 	letter-spacing: -1.2px;
 	
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 	padding-left: 500px;
-	/* padding-right: 100px;  */ 
+
 
 	}
 
-	#cardText{
 
-		color: #FFF;
-font-family: Overpass;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 28px;
-letter-spacing: 0.5px;
-padding-left: 500px;
-padding-right: 150px; 
+#cardText{
+
+	color: #FFF;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding-left: 500px;
+	padding-right: 150px; 
+	padding-bottom: 20px;
 
 	}
 	
@@ -1015,6 +1052,7 @@ padding-right: 150px;
 	display:flex;
 	flex-direction: row;
 	position: absolute;
+	top: 0px;
 
 
 
@@ -1022,10 +1060,11 @@ padding-right: 150px;
 
 
 #phoneOne{
-	padding-bottom: 300px;
+	padding-bottom: 10px;
 	position: absolute;
 	z-index: 2;
-	left: 40px;
+	left: 20px;
+	width: 150px;
 	
 }
 
@@ -1034,7 +1073,8 @@ padding-right: 150px;
 	padding-top: 10px;
 	position: absolute;
 	z-index: 2;
-	left: 300px;
+	left: 200px;
+	width: 150px;
 	
 }
 	
@@ -1057,28 +1097,28 @@ padding-right: 150px;
 
 #freeOpenTitle{
 	color: #1F3E5A;
-text-align: center;
-font-family: Overpass SemiBold;
-font-size: 28px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px;
-padding: 40px;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 40px;
 
 }
 
 #freeOpenText{
 
 	color: #4C5862;
-text-align: center;
-font-family: Overpass;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 28px;
-letter-spacing: 0.5px;
-padding: 20px;
-text-align: justify;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 20px;
+	text-align: justify;
 
 }
 
@@ -1115,7 +1155,7 @@ text-align: justify;
 footer{
 	display: flex;
 	flex-direction: row;
-	/* justify-content: center; */
+	justify-content: center;
 	border-radius: 0px 100px 0px 0px;
 	background: #24242C;
 	padding: 20px;
