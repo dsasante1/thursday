@@ -174,7 +174,7 @@
 		letter-spacing: -0.84px;
 		padding-left: 50px;
 		padding-right: 50px;
-		padding-bottom: 40px;
+		padding-bottom: 50px;
 
 
 	}
@@ -183,10 +183,7 @@
 #badge{
 
 	padding: 20px;
-	position: absolute;
-	/* padding-left: 50px; */
-	top: 5px;
-	left: 160px;
+
 
 }
 
@@ -200,7 +197,7 @@
 	position: absolute;
 	
 	
-	left: 80px;
+	left: 60px;
 	top: 200px;
 		
 	}
@@ -213,7 +210,7 @@
 	height: 250px;
 	position: absolute;
 	
-	left: 104px;
+	left: 85px;
 	top:225px;
 	
 }
@@ -229,12 +226,12 @@
 	position: absolute;
 	
 	top: 241px;
-	left: 60px;
+	left: 52px;
 
 }
 
 #bottomSquare{
-		padding-left: 40px;
+		padding-left: 10px;
 		padding-right: 30px;
 		position: absolute;
 		top: 300px
@@ -250,7 +247,7 @@
 /* 
 	z-index: 4; */
 	top: 270px;
-	left: 80px;
+	left: 90px;
 	background-color: white;
 
 }
@@ -261,7 +258,7 @@
 	position: absolute;
 	/* z-index: 4; */
 	top: 270px;
-	left: 200px;
+	left: 190px;
 	background-color: white;
 
 }
@@ -275,7 +272,7 @@
 	position: absolute;
 	z-index: 5;
 	top: 277px;
-	left: 90px;
+	left: 100px;
 	background-color: black;
 }
 
@@ -301,7 +298,8 @@
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
-	padding: 50px;
+	margin-top: 350px;
+	
 }
 
 
@@ -330,7 +328,7 @@
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
-	padding: 50px;
+	padding: 30px;
 
 	}
 
@@ -344,7 +342,7 @@
 	font-weight: 300;
 	line-height: 28px;
 	letter-spacing: 0.5px;
-	padding: 50px;
+	padding: 30px;
 
 	}
 
@@ -354,44 +352,55 @@
 		flex-direction: row;
 		
 
-		padding: 30px;
+		/* padding: 30px; */
 		
 	}
 
 	#phoneOne{
 		fill: #1D1D25;
 		filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
+		/* left: 10px;
+		position: relative; */
 	}
 
 	#phoneTwo{
 		fill: #1D1D25;
 filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
+		/* left: 100px;
+		position: relative; */
 
 	}
 
 	#card{
 		border-radius: 0px 100px;
-background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+	
+		background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+		/* padding: 20px; */
+		height: 600px;
+
 
 	}
 
 
 #cardTitle{
-padding: 30px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 	color: #FFF;
-text-align: center;
-font-family: Overpass SemiBold;
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: -1.2px;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -1.2px;
+	
 }
 
 
 
 #cardText{
-	padding: 20px;
+	padding: 50px;
+	position: absolute;
 	text-align: justify;
 	color: #FFF;
 	text-align: center;
@@ -407,7 +416,7 @@ letter-spacing: -1.2px;
 
 
 #laptopScreen{
-	padding: 20px;
+	padding: 50px;
 }
 
 
@@ -465,7 +474,8 @@ font-style: normal;
 font-weight: 300;
 line-height: 28px;
 letter-spacing: 0.5px;
-padding: 20px;
+padding: 30px;
+padding-bottom: 60px;
 text-align: justify;
 
 }
@@ -477,13 +487,11 @@ footer{
 	justify-content: center;
 	border-radius: 0px 100px 0px 0px;
 	background: #24242C;
-	padding: 50px;
+	padding: 30px;
 }
 
-footer img{
-	padding: 50px;
-
-
+#footerLogo{
+	padding: 40px;
 }
 
 
@@ -508,7 +516,7 @@ font-size: 17px;
 font-style: normal;
 font-weight: 400;
 line-height: 33px;
-padding: 10px;
+/* padding: 10px; */
 text-transform: capitalize;
 }
 
@@ -563,15 +571,7 @@ text-transform: capitalize;
 
 
 
-	/* #logo{
-		margin: 200px;
 
-	}
-
-
-	#navStripes{
-		width: 20px;
-	} */
 
 	#navProduct{
 		display: flex;
