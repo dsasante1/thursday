@@ -592,7 +592,7 @@ nav{
 
 
 #navArrow{
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 
 }
 
@@ -752,6 +752,7 @@ nav{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		gap: 30px;
 	}
 
 
@@ -774,6 +775,7 @@ nav{
 		display: flex;
 		flex-direction: row;
 		position: relative;
+		gap: 20px;
 
 	}
 
@@ -791,6 +793,8 @@ nav{
 	#badge{
 
 		padding: 20px;
+		margin: 20px;
+		position: relative;
 	
 	
 	}
@@ -803,10 +807,10 @@ nav{
 		width: 300px;
 		height: 300px;
 		position: absolute;
+		padding: 20px;
 		
-		
-		right: 60px;
-		top: 200px;
+		right: 5px;
+		top: 1px;
 			
 		}
 	
@@ -817,9 +821,10 @@ nav{
 		width: 250px;
 		height: 250px;
 		position: absolute;
+		padding: 20px;
 		
-		right: 85px;
-		top:225px;
+		right: 16px;
+		top:1px;
 		
 	}
 	
@@ -833,14 +838,14 @@ nav{
 		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
 		position: absolute;
 		
-		top: 241px;
+		top: 20px;
 		right: 0px;
 	
 	}
 	
 	#bottomSquare{
 			position: absolute;
-			top: 300px;
+			top: 80px;
 			right: 0px;
 	
 		}
@@ -853,8 +858,8 @@ nav{
 		position: absolute;
 	/* 
 		z-index: 4; */
-		top: 270px;
-		right: 90px;
+		top: 90px;
+		right: 200px;
 		background-color: white;
 	
 	}
@@ -864,8 +869,8 @@ nav{
 		height: 150px;
 		position: absolute;
 		/* z-index: 4; */
-		top: 270px;
-		right: 190px;
+		top: 50px;
+		right: 30px;
 		background-color: white;
 	
 	}
@@ -878,8 +883,8 @@ nav{
 		border: 2px solid;
 		position: absolute;
 		z-index: 5;
-		top: 277px;
-		right: 100px;
+		top: 100px;
+		right: 210px;
 		background-color: black;
 	}
 	
@@ -888,8 +893,8 @@ nav{
 	#curvyLine{
 		position: absolute;
 		/* z-index: 5; */
-		top: 300px;
-		right: 180px;
+		top: 90px;
+		right: 4px;
 	
 	}
 	
@@ -905,7 +910,10 @@ nav{
 		font-style: normal;
 		font-weight: 600;
 		line-height: 32px;
-		margin-top: 350px;
+		padding-top:25px;
+		padding-bottom: 25px;
+		margin: 20px;
+	
 		
 	}
 	
@@ -919,8 +927,9 @@ nav{
 		font-weight: 300;
 		line-height: 28px;
 		letter-spacing: 0.5px;
-		padding: 20px;
+		padding-right: 100px;
 		text-align: justify;
+		margin: 20px;
 		}
 	
 	
@@ -936,6 +945,7 @@ nav{
 		font-weight: 600;
 		line-height: 32px;
 		padding: 30px;
+		margin: 20px;
 	
 		}
 	
@@ -949,12 +959,201 @@ nav{
 		font-weight: 300;
 		line-height: 28px;
 		letter-spacing: 0.5px;
-		padding: 30px;
+		padding-left: 100px;
+		padding-right: 100px;
+	
 	
 		}
 	
-	
-	
-	
+
+	#phoneCard{
+
+	border-radius: 0px 100px;
+background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+padding-top: 50px;
+padding-left: 100px;
+padding-right: 100px;
+gap: 50px;
+height: 320px;
+position: relative;
+z-index: 1;
+
 	}
+
+
+#cardTitle{
+	color: #FFF;
+	font-family: Overpass SemiBold;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -1.2px;
+	
+	padding-bottom: 50px;
+	padding-left: 500px;
+	/* padding-right: 100px;  */ 
+
+	}
+
+	#cardText{
+
+		color: #FFF;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+padding-left: 500px;
+padding-right: 150px; 
+
+	}
+	
+
+#phones{
+	display:flex;
+	flex-direction: row;
+	position: absolute;
+
+
+
+}
+
+
+#phoneOne{
+	padding-bottom: 300px;
+	position: absolute;
+	z-index: 2;
+	left: 40px;
+	
+}
+
+
+#phoneTwo{
+	padding-top: 10px;
+	position: absolute;
+	z-index: 2;
+	left: 300px;
+	
+}
+	
+	
+
+
+#bottomSection{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 40px;
+}
+
+
+#bottomSectionText{
+	display: flex;
+	flex-direction: column;
+}
+
+#freeOpenTitle{
+	color: #1F3E5A;
+text-align: center;
+font-family: Overpass SemiBold;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+padding: 40px;
+
+}
+
+#freeOpenText{
+
+	color: #4C5862;
+text-align: center;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+padding: 20px;
+text-align: justify;
+
+}
+
+#toolingTitle{
+	color: #1F3E5A;
+text-align: center;
+font-family: Overpass SemiBold;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+padding: 40px;
+
+}
+
+#toolingText{
+	color: #4C5862;
+text-align: center;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+padding: 30px;
+padding-bottom: 60px;
+text-align: justify;
+
+}
+
+
+
+
+footer{
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+	border-radius: 0px 100px 0px 0px;
+	background: #24242C;
+	padding: 20px;
+	/* height: 30px; */
+}
+
+#footerLogo{
+	padding: 40px;
+}
+
+
+#footerLinkTitle{
+	color: #FFF;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 33px;
+	padding: 40px;
+	text-transform: capitalize;
+}
+
+
+#footerLinkItems{
+	color: #FFF;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px;
+	/* padding: 10px; */
+	text-transform: capitalize;
+}
+
+
+
+
+}
 	
