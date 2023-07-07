@@ -534,87 +534,97 @@ text-transform: capitalize;
 	@media only screen and (min-width: 800px) {
 	
 	
-	
-	
-	
-	*{
-		margin: 0px;
-		padding: 0px;
-		box-sizing: border-box;
-	}
-	
-	#desktop{
-		display: block;
-	}
-	
-	
-	#mobile{
-		display: none;
-	}
-	
-	
-	nav{
-		padding: 20px;
-		display: flex;
-		flex-direction: column;
-		position: relative;
-		border-radius: 0px 0px 0px 100px;
-		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		z-index: 1;
-	}
-
-	#navLogoStrips{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-	}
 
 
 
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#desktop{
+	display: block;
+}
 
 
-	#navProduct{
-		display: flex;
-		flex-direction: row;
-		gap: 10px;
-	}
-
-	#navProduct span{
-		color: #FFF;
-		font-family: Ubuntu;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 700;
-		line-height: normal;
-	}
+#mobile{
+	display: none;
+}
 
 
-	#navSignUp{
+nav{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	border-radius: 0px 0px 0px 100px;
+	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+	z-index: 1;
+}
 
-	}
+#navLogoStrips{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* padding: 20px; */
+}
 
-	#login{
-		color: #FFF;
-		text-align: right;
-		font-family: Ubuntu;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 700;
-		line-height: normal;
-	}
 
-	#signUp{
-		color: #FF505C;
-		text-align: right;
-		font-family: Ubuntu;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 700;
-		line-height: normal;
-		border-radius: 28px;
-		background: #FFF;
-		padding: 10px;
-	}
+
+
+
+#navProduct{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	padding: 20px;
+}
+
+#navProduct span{
+	color: #FFF;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+
+#navArrow{
+	padding-bottom: 20px;
+
+}
+
+
+
+
+#login{
+	color: #FFF;
+	text-align: right;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+#signUp{
+	color: #FF505C;
+	text-align: right;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	border-radius: 28px;
+	background-color: #FFF;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+
+}
 
 
 
@@ -683,24 +693,28 @@ text-transform: capitalize;
 
 
 
+	
 	.raisedItems{
+		position:relative;
 		z-index: 3;
 	}
 
 	.backgroundSquare{
-		z-index: 2;
+		z-index: -1;
 		position: absolute;
+		
+		
 	}
 
 
 	#backgroundSquare1{
 		
-		transform: rotate(22deg);
+		transform: rotate(180deg);
 		border-radius: 0px 0px 100px 0px;
 		background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
 		bottom: 0px;
-		right: 10px;
-		padding:30px;
+		right: 0px;
+		padding: 100px;
 		
 		
 		
@@ -710,39 +724,234 @@ text-transform: capitalize;
 	#backgroundSquare2{
 
 		
-		transform: rotate(-22deg);
-		border-radius: 393.383px;
-		background: linear-gradient(50deg, #FF8F71 0%, #FF3E55 100%);
-		top: 0px;
+		transform: rotate(0deg);
+		border-radius: 600.383px; 
+		background: linear-gradient(10deg, #FF8F71 0%, #FF3E55 100%);
+		bottom: 0px;
+		left: 200px;
+		padding: 200px;
+	
 
 	
 	}
 
 	#backgroundSquare3{
 
-		transform: rotate(-158deg);
+		transform: rotate(90deg);
 		border-radius: 0px 0px 100px 0px;
 		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		bottom: 100px;
+		top: 0px;
+		right: 0px;
+		padding: 100px;
 	
 
 	}
+	
+
+	#midSection{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
 
 
 	#futureDesign{
 		color: #1F3E5A;
 		text-align: center;
 		font-family: Overpass SemiBold;
-		font-size: 28px;
+		font-size: 40px;
 		font-style: normal;
 		font-weight: 600;
 		line-height: normal;
-		letter-spacing: -0.84px;
-		padding-left: 50px;
-		padding-right: 50px;
+		letter-spacing: -1.2px;
+		padding: 60px;
 
 	}
 
+
+	#splitContent{
+		display: flex;
+		flex-direction: row;
+		position: relative;
+
+	}
+
+	
+
+	#textContents{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	}
+	
+
+
+
+	#badge{
+
+		padding: 20px;
+	
+	
+	}
+	
+	
+	
+	#outerCircle{
+		border-radius: 70%;
+		border: 1px solid #2D2E40;
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		
+		
+		right: 60px;
+		top: 200px;
+			
+		}
+	
+	#innerCircle{
+		border-radius: 510px;
+		border: 1px solid #2D2E40;
+		
+		width: 250px;
+		height: 250px;
+		position: absolute;
+		
+		right: 85px;
+		top:225px;
+		
+	}
+	
+	
+	#topSquare{
+		
+		width: 326px;
+		height: 60px;
+		border-radius: 5px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+		position: absolute;
+		
+		top: 241px;
+		right: 0px;
+	
+	}
+	
+	#bottomSquare{
+			position: absolute;
+			top: 300px;
+			right: 0px;
+	
+		}
+	
+	
+	#smallTopSquare{
+	
+		width: 80px;
+		height: 80px;
+		position: absolute;
+	/* 
+		z-index: 4; */
+		top: 270px;
+		right: 90px;
+		background-color: white;
+	
+	}
+	
+	#bigTopSquare{
+		width: 150px;
+		height: 150px;
+		position: absolute;
+		/* z-index: 4; */
+		top: 270px;
+		right: 190px;
+		background-color: white;
+	
+	}
+	
+	
+	#topSmallCircle{
+		height: 60px;
+		width: 60px;
+		border-radius: 100%;
+		border: 2px solid;
+		position: absolute;
+		z-index: 5;
+		top: 277px;
+		right: 100px;
+		background-color: black;
+	}
+	
+	
+	
+	#curvyLine{
+		position: absolute;
+		/* z-index: 5; */
+		top: 300px;
+		right: 180px;
+	
+	}
+	
+	
+	
+	
+	
+	#extensibleTitle{
+		color: #1F3E5A;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		margin-top: 350px;
+		
+	}
+	
+	
+	#extensibleText{
+		color: #4C5862;
+		text-align: center;
+		font-family: Overpass;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 28px;
+		letter-spacing: 0.5px;
+		padding: 20px;
+		text-align: justify;
+		}
+	
+	
+	
+	
+	
+	#robustTitle{
+		color: #1F3E5A;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		padding: 30px;
+	
+		}
+	
+	
+	#robustText{
+		color: #4C5862;
+		text-align: center;
+		font-family: Overpass;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 28px;
+		letter-spacing: 0.5px;
+		padding: 30px;
+	
+		}
 	
 	
 	
