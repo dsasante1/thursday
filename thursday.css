@@ -1,4 +1,557 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 360px)  {
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	
+	#desktop{
+		display: none;
+	}
+	
+	nav{
+		padding: 60px;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		border-radius: 0px 0px 0px 100px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		z-index: -2;
+	}
+
+
+
+	#navLogoStripes{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+
+
+
+
+	#navTitle{
+		color: #FFF;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		letter-spacing: -1.08px;
+		padding-top: 100px;
+		padding-bottom: 20px;
+
+	}
+
+
+	#navText{
+		color: #FFF;
+		text-align: center;
+		font-family: Overpass;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: normal;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+
+
+
+	#navButtons{
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		justify-content: center;
+		padding-bottom: 100px;
+
+	}
+
+	#leftButton{
+		color: #FF505C;
+		text-align: right;
+		font-family: Ubuntu;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		border-radius: 28px;
+		background: #FFF;
+		padding: 10px;
+	}
+
+	#rightButton{
+		color: #FFF;
+		text-align: right;
+		font-family: Ubuntu;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		border-radius: 28px;
+		border: 1px solid #FFF;
+		padding: 10px;
+		
+	}
+
+
+
+	.raisedItems{
+		position:relative;
+		z-index: 3;
+	}
+
+	.backgroundSquare{
+		z-index: -1;
+		position: absolute;
+		
+		
+	}
+
+
+	#backgroundSquare1{
+		
+		transform: rotate(180deg);
+		border-radius: 0px 0px 100px 0px;
+		background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
+		bottom: 0px;
+		right: 0px;
+		padding: 50px;
+		
+		
+		
+	
+	}
+
+	#backgroundSquare2{
+
+		
+		transform: rotate(-22deg);
+		border-radius: 370.383px;
+		background: linear-gradient(50deg, #FF8F71 0%, #FF3E55 100%);
+		bottom: 0px;
+		left: -90px;
+		padding: 170px;
+
+	
+	}
+
+	#backgroundSquare3{
+
+		transform: rotate(20deg);
+		border-radius: 0px 0px 100px 0px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		top: 0px;
+		left: 20px;
+		padding: 140px;
+	
+
+	}
+	
+
+	#midSection{
+		
+		display: flex;
+		flex-direction: column;
+		padding-top: 100px;
+		padding-left: 20px;
+		padding-right: 20px;
+		position: relative;
+		
+	}
+
+	#futureDesign{
+		color: #1F3E5A;
+		text-align: center;
+		font-family: Overpass SemiBold;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		letter-spacing: -0.84px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 50px;
+
+
+	}
+
+
+
+
+
+#badge{
+
+
+
+}
+
+
+
+#outerCircle{
+	border-radius: 70%;
+	border: 1px solid #2D2E40;
+	width: 280px;
+	height: 280px;
+	position: absolute;
+	left: 40px;
+		
+	}
+
+#innerCircle{
+	border-radius: 510px;
+	border: 1px solid #2D2E40;
+	
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	
+	left: 55px;
+	top:230px;
+	
+}
+
+
+#topSquare{
+	
+	width: 280px;
+	height: 60px;
+	border-radius: 5px;
+	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+	box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+	position: absolute;
+	
+
+	margin-top: 38px;
+	margin-left: 20px;
+
+}
+
+#bottomSquare{
+		margin-top: 90px;
+		margin-left: 20px;
+		position: absolute;
+		width: 280px;
+		height: 153.475px;
+		background-color: #2D2E40;
+
+	}
+
+
+#smallTopSquare{
+
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 70px;
+	background-color: white;
+
+}
+
+#bigTopSquare{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	
+	margin-top: 60px;
+	margin-left: 140px;
+	background-color: white;
+
+}
+
+
+#topSmallCircle{
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	border: 2px solid;
+	position: absolute;
+	z-index: 5;
+
+	margin-top: 79px;
+	margin-left: 50px;
+	background-color: black;
+}
+
+
+
+#curvyLine{
+	width: 160px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 130px;
+
+}
+
+
+
+
+
+#extensibleTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	margin-top: 350px;
+	
+}
+
+
+#extensibleText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 20px;
+	text-align: justify;
+	}
+
+
+
+
+
+#robustTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+
+
+	}
+
+
+#robustText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 30px;
+
+	}
+
+
+#twoPhones{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	padding: 50px;
+	
+}
+
+
+#phoneOne{
+	fill: #1D1D25;
+	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
+	left: 5px;
+	position: absolute; 
+	border: solid;
+	width: 120px;
+	top: 10px;
+
+}
+
+#phoneTwo{
+	fill: #1D1D25;
+	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
+	left: 120px;
+	position: relative;
+	border: solid;
+	width: 120px;
+
+	}
+
+#card{
+	border-radius: 0px 100px;
+
+	background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+	/* padding: 20px; */
+	/* height: 600px; */
+	overflow: hidden;
+	padding: 20px;
+
+
+}
+
+
+#cardTitle{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	color: #FFF;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -1.2px;
+	
+}
+
+
+
+#cardText{
+	padding: 50px;
+	padding-bottom: 90px;
+	text-align: justify;
+	color: #FFF;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+
+}
+
+
+
+#laptopScreen{
+	padding: 50px;
+}
+
+
+#laptopKeyboard{
+	border-radius: 3px 3px 0px 0px;
+background: #52526F;
+}
+
+
+#freeOpenTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+
+
+}
+
+#freeOpenText{
+
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 20px;
+	text-align: justify;
+
+}
+
+#toolingTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 40px;
+
+}
+
+#toolingText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 30px;
+	padding-bottom: 60px;
+	text-align: justify;
+
+}
+
+
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 0px 100px 0px 0px;
+	background: #24242C;
+	padding: 30px;
+}
+
+#footerLogo{
+	width: 100px;
+	margin: auto;
+	/* max-width: 200px;
+	max-height: 200px; */
+
+}
+
+
+#footerLinkTitle{
+	color: #FFF;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 33px;
+	padding: 40px;
+	text-transform: capitalize;
+}
+
+
+#footerLinkItems{
+	color: #FFF;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px;
+	/* padding: 10px; */
+	text-transform: capitalize;
+	}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 360px) and (max-width: 800px) {
 	*{
 		margin: 0px;
 		padding: 0px;
@@ -184,6 +737,10 @@
 
 
 #badge{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 
 
@@ -196,21 +753,22 @@
 	border: 1px solid #2D2E40;
 	width: 300px;
 	height: 300px;
-	position: absolute;
-	left: 50px;
+	z-index: 1;
+	/* position: absolute; */
+	/* left: 50px; */
 		
 	}
 
 #innerCircle{
 	border-radius: 510px;
 	border: 1px solid #2D2E40;
-	
+	z-index: 2;
 	width: 250px;
 	height: 250px;
 	position: absolute;
-	
-	left: 75px;
-	top:210px;
+ 	
+	/* left: 75px;
+	top:210px;  */
 	
 }
 
@@ -222,11 +780,10 @@
 	border-radius: 5px;
 	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 	box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+	z-index: 3;
 	position: absolute;
-	
+	padding-left: 350px;
 
-	margin-top: 50px;
-	margin-left: 20px;
 
 }
 
@@ -236,6 +793,7 @@
 		position: absolute;
 		width: 326px;
 		height: 153.475px;
+		z-index: 2;
 		background-color: #2D2E40;
 
 	}
@@ -246,10 +804,9 @@
 	width: 80px;
 	height: 80px;
 	position: absolute;
-/* 
-	z-index: 4; */
-	margin-left: 50px;
-	margin-top: 90px;
+
+	z-index: 5; 
+
 	background-color: white;
 
 }
@@ -258,10 +815,7 @@
 	width: 150px;
 	height: 150px;
 	position: absolute;
-	/* z-index: 4; */
-
-	margin-top: 80px;
-	margin-left: 160px;
+	z-index: 4;
 	background-color: white;
 
 }
@@ -275,8 +829,7 @@
 	position: absolute;
 	z-index: 5;
 
-	margin-top: 100px;
-	margin-left: 60px;
+
 	background-color: black;
 }
 
@@ -284,9 +837,8 @@
 
 #curvyLine{
 	position: absolute;
-	/* z-index: 5; */
-	margin-top: 100px;
-	margin-left: 130px;
+	z-index: 5; 
+
 
 }
 
@@ -354,8 +906,10 @@
 	#twoPhones{
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 		position: relative;
-		padding: 50px;
+		padding: 25px;
 		
 
 		/* padding: 30px; */
@@ -365,7 +919,7 @@
 #phoneOne{
 	fill: #1D1D25;
 	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
-	left: 5px;
+	left: 25px;
 	position: absolute; 
 	border: solid;
 	width: 150px;
