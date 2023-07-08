@@ -184,8 +184,6 @@
 
 
 #badge{
-	position: realtive;
-
 
 
 
@@ -910,7 +908,7 @@ nav{
 	position: absolute;
 
 	
-	right: 5px;
+	right: 0px;
 	bottom: 140px;
 		
 	}
@@ -924,7 +922,7 @@ nav{
 	position: absolute;
 
 	
-	right: 16px;
+	right: 0px;
 	bottom: 200px;
 	
 }
