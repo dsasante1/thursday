@@ -511,6 +511,7 @@ footer{
 	margin: auto;
 	/* max-width: 200px;
 	max-height: 200px; */
+
 }
 
 
@@ -550,7 +551,7 @@ footer{
 	/* desktop screens */
 	
 	
-	@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
 	
 	
 
@@ -999,7 +1000,211 @@ nav{
 	right: 4px;
 
 }
+	
+	
+	}
+	
+	
+	
+	#outerCircle{
+		border-radius: 70%;
+		border: 1px solid #2D2E40;
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		padding: 20px;
+		
+		right: 5px;
+		top: 1px;
+			
+		}
+	
+	#innerCircle{
+		border-radius: 510px;
+		border: 1px solid #2D2E40;
+		
+		width: 250px;
+		height: 250px;
+		position: absolute;
+		padding: 20px;
+		
+		right: 16px;
+		top:1px;
+		
+	}
+	
+	
+	#topSquare{
+		
+		width: 326px;
+		height: 60px;
+		border-radius: 5px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+		position: absolute;
+		
+		top: 20px;
+		right: 0px;
+	
+	}
+	
+	#bottomSquare{
+			position: absolute;
+			top: 80px;
+			right: 0px;
+	
+		}
+	
+	
+	#smallTopSquare{
+	
+		width: 80px;
+		height: 80px;
+		position: absolute;
+	/* 
+		z-index: 4; */
+		top: 90px;
+		right: 200px;
+		background-color: white;
+	
+	}
+	
+	#bigTopSquare{
+		width: 150px;
+		height: 150px;
+		position: absolute;
+		/* z-index: 4; */
+		top: 50px;
+		right: 30px;
+		background-color: white;
+	
+	}
+	
+	
+	#topSmallCircle{
+		height: 60px;
+		width: 60px;
+		border-radius: 100%;
+		border: 2px solid;
+		position: absolute;
+		z-index: 5;
+		top: 100px;
+		right: 210px;
+		background-color: black;
+	}
+	
+	
+	
+	#curvyLine{
+		position: absolute;
+		/* z-index: 5; */
+		top: 90px;
+		right: 4px;
+	
+	}
+	
+	
 
+	
+	
+	
+	#outerCircle{
+		border-radius: 70%;
+		border: 1px solid #2D2E40;
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		/* padding: 20px; */
+		
+		right: 5px;
+		top: 1px;
+			
+		}
+	
+	#innerCircle{
+		border-radius: 510px;
+		border: 1px solid #2D2E40;
+		
+		width: 250px;
+		height: 250px;
+		position: absolute;
+		padding: 20px;
+		
+		right: 16px;
+		top:1px;
+		
+	}
+	
+	
+	#topSquare{
+		
+		width: 326px;
+		height: 60px;
+		border-radius: 5px;
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+		position: absolute;
+		
+		top: 20px;
+		right: 0px;
+	
+	}
+	
+	#bottomSquare{
+			position: absolute;
+			top: 80px;
+			right: 0px;
+	
+		}
+	
+	
+	#smallTopSquare{
+	
+		width: 80px;
+		height: 80px;
+		position: absolute;
+	/* 
+		z-index: 4; */
+		top: 90px;
+		right: 200px;
+		background-color: white;
+	
+	}
+	
+	#bigTopSquare{
+		width: 150px;
+		height: 150px;
+		position: absolute;
+		/* z-index: 4; */
+		top: 50px;
+		right: 30px;
+		background-color: white;
+	
+	}
+	
+	
+	#topSmallCircle{
+		height: 60px;
+		width: 60px;
+		border-radius: 100%;
+		border: 2px solid;
+		position: absolute;
+		z-index: 5;
+		top: 100px;
+		right: 210px;
+		background-color: black;
+	}
+	
+	
+	
+	#curvyLine{
+		position: absolute;
+		/* z-index: 5; */
+		top: 90px;
+		right: 4px;
+	
+	}
+	
 
 	
 
