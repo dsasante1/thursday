@@ -1158,10 +1158,6 @@ display: block;
 display: none;
 }
 
-/* body{
-width: 1200px;
-} */
-
 
 
 nav{
@@ -1392,7 +1388,7 @@ padding: 60px;
 
 #splitContent{
 display: flex;
-flex-direction: row;
+flex-direction: row;	
 position: relative;
 gap: 20px;
 
@@ -1404,8 +1400,8 @@ gap: 20px;
 display: flex;
 flex-direction: column;
 position: relative;
-padding-left: 100px;
-padding-right: 400px;
+width: 700px;
+
 }
 
 
@@ -1419,7 +1415,8 @@ font-size: 28px;
 font-style: normal;
 font-weight: 600;
 line-height: 32px;
-padding: 50px;
+padding-left: 50px;
+
 
 
 
@@ -1455,7 +1452,9 @@ font-size: 28px;
 font-style: normal;
 font-weight: 600;
 line-height: 32px;
-padding: 50px;
+padding-left: 50px;
+
+
 
 
 
@@ -1482,6 +1481,8 @@ padding: 50px;
 
 position: relative;
 float: right;
+width: 540px;
+
 
 
 }
@@ -1489,32 +1490,47 @@ float: right;
 
 
 #outerCircle{
-border-radius: 70%;
-border: 1px solid #2D2E40;
-width: 450px;
-height: 450px;
-position: absolute;
-
-
-right: 0px;
-bottom: 140px;
+	border-top-left-radius: 440px;
+    border-bottom-left-radius: 440px;
+    border: 2px solid #eeeef6;
+    border-right: 0;
+    width: 310px;
+    height: 570px;
+    position: absolute;
+	right: 0px;
+	bottom: 40px;
 
 }
+
+
+#middleCircle{
+	border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+    border: 2px solid #eeeef6;
+    border-right: 0;
+    width: 250px;
+    height: 480px;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+}
+
+
+
 
 #innerCircle{
-border-radius: 510px;
-border: 1px solid #2D2E40;
-
-width: 350px;
-height: 350px;
-position: absolute;
-
-
-right: 0px;
-bottom: 200px;
+	border-top-left-radius: 260px;
+	border-bottom-left-radius: 260px;
+	background-color: #eeeef6;
+	border: 5px solid #eeeef6;
+	border-right: 0;
+	width: 180px;
+	height: 390px;
+	position: absolute;	
+	right: 0px;
+	bottom: 30px;
 
 }
-
 
 #topSquare{
 
@@ -1525,14 +1541,14 @@ background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
 position: absolute;
 
-top: 20px;
+top: 70px;
 right: 0px;
 
 }
 
 #bottomSquare{
 position: absolute;
-top: 80px;
+top: 130px;
 right: 0px;
 
 }
@@ -1544,7 +1560,7 @@ width: 80px;
 height: 80px;
 position: absolute;
 
-top: 90px;
+top: 120px;
 right: 200px;
 background-color: white;
 
@@ -1555,7 +1571,7 @@ width: 150px;
 height: 150px;
 position: absolute;
 
-top: 50px;
+top: 100px;
 right: 30px;
 background-color: white;
 
@@ -1569,7 +1585,7 @@ border-radius: 100%;
 border: 2px solid;
 position: absolute;
 z-index: 5;
-top: 100px;
+top: 130px;
 right: 210px;
 background-color: black;
 }
@@ -1579,7 +1595,7 @@ background-color: black;
 #curvyLine{
 position: absolute;
 
-top: 90px;
+top: 150px;
 right: 4px;
 }
 
