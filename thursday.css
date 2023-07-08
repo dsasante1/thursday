@@ -549,7 +549,7 @@ text-transform: capitalize;
 	/* desktop screens */
 	
 	
-	@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
 	
 	
 
@@ -570,9 +570,9 @@ text-transform: capitalize;
 	display: none;
 }
 
-body{
+/* body{
 	width: 1200px;
-}
+} */
 
 
 
@@ -907,7 +907,7 @@ nav{
 		width: 300px;
 		height: 300px;
 		position: absolute;
-		padding: 20px;
+		/* padding: 20px; */
 		
 		right: 5px;
 		top: 1px;
