@@ -199,10 +199,7 @@
 	width: 300px;
 	height: 300px;
 	position: absolute;
-	
-	
-	margin-left: 30px;
-	margin-top: 20px;
+	left: 50px;
 		
 	}
 
@@ -214,8 +211,8 @@
 	height: 250px;
 	position: absolute;
 	
-	margin-left: 58px;
-	top:270px;
+	left: 75px;
+	top:210px;
 	
 }
 
@@ -337,7 +334,7 @@
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
-	padding: 30px;
+
 
 	}
 
@@ -388,15 +385,17 @@
 
 	}
 
-	#card{
-		border-radius: 0px 100px;
-	
-		background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
-		/* padding: 20px; */
-		height: 600px;
+#card{
+	border-radius: 0px 100px;
+
+	background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+	/* padding: 20px; */
+	/* height: 600px; */
+	overflow: hidden;
+	padding: 20px;
 
 
-	}
+}
 
 
 #cardTitle{
@@ -417,7 +416,7 @@
 
 #cardText{
 	padding: 50px;
-	position: absolute;
+	padding-bottom: 90px;
 	text-align: justify;
 	color: #FFF;
 	text-align: center;
@@ -445,55 +444,55 @@ background: #52526F;
 
 #freeOpenTitle{
 	color: #1F3E5A;
-text-align: center;
-font-family: Overpass SemiBold;
-font-size: 28px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px;
-padding: 40px;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+
 
 }
 
 #freeOpenText{
 
 	color: #4C5862;
-text-align: center;
-font-family: Overpass;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 28px;
-letter-spacing: 0.5px;
-padding: 20px;
-text-align: justify;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 20px;
+	text-align: justify;
 
 }
 
 #toolingTitle{
 	color: #1F3E5A;
-text-align: center;
-font-family: Overpass SemiBold;
-font-size: 28px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px;
-padding: 40px;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 40px;
 
 }
 
 #toolingText{
 	color: #4C5862;
-text-align: center;
-font-family: Overpass;
-font-size: 16px;
-font-style: normal;
-font-weight: 300;
-line-height: 28px;
-letter-spacing: 0.5px;
-padding: 30px;
-padding-bottom: 60px;
-text-align: justify;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 30px;
+	padding-bottom: 60px;
+	text-align: justify;
 
 }
 
@@ -508,34 +507,37 @@ footer{
 }
 
 #footerLogo{
-	padding: 40px;
+	width: 100px;
+	margin: auto;
+	/* max-width: 200px;
+	max-height: 200px; */
 }
 
 
 #footerLinkTitle{
 	color: #FFF;
-text-align: center;
-font-family: Ubuntu;
-font-size: 20px;
-font-style: normal;
-font-weight: bolder;
-line-height: 33px;
-padding: 40px;
-text-transform: capitalize;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 33px;
+	padding: 40px;
+	text-transform: capitalize;
 }
 
 
 #footerLinkItems{
 	color: #FFF;
-text-align: center;
-font-family: Ubuntu;
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 33px;
-/* padding: 10px; */
-text-transform: capitalize;
-}
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px;
+	/* padding: 10px; */
+	text-transform: capitalize;
+	}
 
 
 
@@ -569,9 +571,9 @@ text-transform: capitalize;
 	display: none;
 }
 
-body{
+/* body{
 	width: 1200px;
-}
+} */
 
 
 
@@ -651,353 +653,354 @@ nav{
 
 
 
-	#navTitle{
-		color: #FFF;
-		text-align: center;
-		font-family: Overpass SemiBold;
-		font-size: 36px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: normal;
-		letter-spacing: -1.08px;
-		padding-top: 100px;
-		padding-left: 20px;
-		padding-right: 20px;
-		padding-bottom: 20px;
-	}
+#navTitle{
+	color: #FFF;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -1.08px;
+	padding-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
 
-	#navText{
-		color: #FFF;
-		text-align: center;
-		font-family: Overpass;
-		font-size: 18px;
-		font-style: normal;
-		font-weight: 300;
-		line-height: normal;
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-
-
+#navText{
+	color: #FFF;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
 
-	#navButtons{
-		display: flex;
-		flex-direction: row;
-		gap: 20px;
-		justify-content: center;
-		padding-bottom: 100px;
-		padding-top: 2px;
-		padding-right: 50px;
-		padding-left: 50px;
 
 
-	}
+#navButtons{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+	padding-bottom: 100px;
+	padding-top: 2px;
+	padding-right: 50px;
+	padding-left: 50px;
 
-	#leftButton{
-		color: #FF505C;
-		text-align: right;
-		font-family: Ubuntu;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 700;
-		line-height: normal;
-		border-radius: 28px;
-		background: #FFF;
-		padding: 10px;
-	}
 
-	#rightButton{
-		color: #FFF;
-		text-align: right;
-		font-family: Ubuntu;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 700;
-		line-height: normal;
-		border-radius: 28px;
-		border: 1px solid #FFF;
-		padding: 10px;
-	}
+}
 
+#leftButton{
+	color: #FF505C;
+	text-align: right;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	border-radius: 28px;
+	background: #FFF;
+	padding: 10px;
+}
+
+#rightButton{
+	color: #FFF;
+	text-align: right;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	border-radius: 28px;
+	border: 1px solid #FFF;
+	padding: 10px;
+}
+
+
+
+
+.raisedItems{
+	position:relative;
+	z-index: 3;
+}
+
+.backgroundSquare{
+	z-index: -1;
+	position: absolute;
+	
+	
+}
+
+
+#backgroundSquare1{
+	
+	transform: rotate(180deg);
+	border-radius: 0px 0px 100px 0px;
+	background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
+	bottom: 0px;
+	right: 0px;
+	padding: 100px;
+	
+	
+	
+
+}
+
+#backgroundSquare2{
+
+	
+	transform: rotate(0deg);
+	border-radius: 600.383px; 
+	background: linear-gradient(10deg, #FF8F71 0%, #FF3E55 100%);
+	bottom: 0px;
+	left: 200px;
+	padding: 200px;
+
+
+
+}
+
+#backgroundSquare3{
+
+	transform: rotate(90deg);
+	border-radius: 0px 0px 100px 0px;
+	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+	top: 0px;
+	right: 0px;
+	padding: 90px;
+
+
+}
+
+
+#midSection{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+	
+}
+
+
+
+#futureDesign{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -1.2px;
+	padding: 60px;
+
+}
+
+
+#splitContent{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	gap: 20px;
+
+}
+
+
+
+#textContents{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding-left: 100px;
+	padding-right: 400px;
+}
+
+
+
+
+#extensibleTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 50px;
+
+	
+
+	
+}
+
+
+#extensibleText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	padding: 50px;
 
 
 	
-	.raisedItems{
-		position:relative;
-		z-index: 3;
 	}
 
-	.backgroundSquare{
-		z-index: -1;
+
+
+
+
+#robustTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 50px;
+
+	
+
+	}
+
+
+#robustText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 50px;
+
+
+	}
+
+
+
+#badge{
+
+	/* padding: 20px;
+	margin: 20px; */
+	position: relative;
+	float: right;
+
+
+}
+
+
+
+#outerCircle{
+	border-radius: 70%;
+	border: 1px solid #2D2E40;
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	/* padding: 20px; */
+	
+	right: 5px;
+	bottom: 140px;
+		
+	}
+
+#innerCircle{
+	border-radius: 510px;
+	border: 1px solid #2D2E40;
+	
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	/* padding: 20px; */
+	
+	right: 16px;
+	bottom: 200px;
+	
+}
+
+
+#topSquare{
+	
+	width: 326px;
+	height: 60px;
+	border-radius: 5px;
+	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+	box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+	position: absolute;
+	
+	top: 20px;
+	right: 0px;
+
+}
+
+#bottomSquare{
 		position: absolute;
-		
-		
-	}
-
-
-	#backgroundSquare1{
-		
-		transform: rotate(180deg);
-		border-radius: 0px 0px 100px 0px;
-		background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
-		bottom: 0px;
+		top: 80px;
 		right: 0px;
-		padding: 100px;
-		
-		
-		
-	
-	}
-
-	#backgroundSquare2{
-
-		
-		transform: rotate(0deg);
-		border-radius: 600.383px; 
-		background: linear-gradient(10deg, #FF8F71 0%, #FF3E55 100%);
-		bottom: 0px;
-		left: 200px;
-		padding: 200px;
-	
-
-	
-	}
-
-	#backgroundSquare3{
-
-		transform: rotate(90deg);
-		border-radius: 0px 0px 100px 0px;
-		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		top: 0px;
-		right: 0px;
-		padding: 90px;
-	
-
-	}
-	
-
-	#midSection{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		gap: 30px;
-		
-	}
-
-
-
-	#futureDesign{
-		color: #1F3E5A;
-		text-align: center;
-		font-family: Overpass SemiBold;
-		font-size: 40px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: normal;
-		letter-spacing: -1.2px;
-		padding: 60px;
 
 	}
 
 
-	#splitContent{
-		display: flex;
-		flex-direction: row;
-		position: relative;
-		gap: 20px;
+#smallTopSquare{
 
-	}
+	width: 80px;
+	height: 80px;
+	position: absolute;
+/* 
+	z-index: 4; */
+	top: 90px;
+	right: 200px;
+	background-color: white;
 
-	
+}
 
-	#textContents{
-		display: flex;
-		flex-direction: column;
-		position: relative;
-		padding-left: 100px;
-		padding-right: 300px;
-	}
-	
-	
-	
-	
-	#extensibleTitle{
-		color: #1F3E5A;
-		text-align: center;
-		font-family: Overpass SemiBold;
-		font-size: 28px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: 32px;
-		padding: 50px;
+#bigTopSquare{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	/* z-index: 4; */
+	top: 50px;
+	right: 30px;
+	background-color: white;
 
-		
-	
-		
-	}
-	
-	
-	#extensibleText{
-		color: #4C5862;
-		text-align: center;
-		font-family: Overpass;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 300;
-		line-height: 28px;
-		letter-spacing: 0.5px;
-		text-align: justify;
-		padding: 50px;
+}
 
 
-		
-		}
-	
-	
-	
-	
-	
-	#robustTitle{
-		color: #1F3E5A;
-		text-align: center;
-		font-family: Overpass SemiBold;
-		font-size: 28px;
-		font-style: normal;
-		font-weight: 600;
-		line-height: 32px;
-		padding: 50px;
-	
-		
-	
-		}
-	
-	
-	#robustText{
-		color: #4C5862;
-		text-align: center;
-		font-family: Overpass;
-		font-size: 16px;
-		font-style: normal;
-		font-weight: 300;
-		line-height: 28px;
-		letter-spacing: 0.5px;
-		padding: 50px;
-	
-	
-		}
+#topSmallCircle{
+	height: 60px;
+	width: 60px;
+	border-radius: 100%;
+	border: 2px solid;
+	position: absolute;
+	z-index: 5;
+	top: 100px;
+	right: 210px;
+	background-color: black;
+}
 
 
 
-	#badge{
+#curvyLine{
+	position: absolute;
+	/* z-index: 5; */
+	top: 90px;
+	right: 4px;
 
-		padding: 20px;
-		margin: 20px;
-		position: relative;
-	
-	
-	}
-	
-	
-	
-	#outerCircle{
-		border-radius: 70%;
-		border: 1px solid #2D2E40;
-		width: 300px;
-		height: 300px;
-		position: absolute;
-		padding: 20px;
-		
-		right: 5px;
-		top: 1px;
-			
-		}
-	
-	#innerCircle{
-		border-radius: 510px;
-		border: 1px solid #2D2E40;
-		
-		width: 250px;
-		height: 250px;
-		position: absolute;
-		padding: 20px;
-		
-		right: 16px;
-		top:1px;
-		
-	}
-	
-	
-	#topSquare{
-		
-		width: 326px;
-		height: 60px;
-		border-radius: 5px;
-		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
-		position: absolute;
-		
-		top: 20px;
-		right: 0px;
-	
-	}
-	
-	#bottomSquare{
-			position: absolute;
-			top: 80px;
-			right: 0px;
-	
-		}
-	
-	
-	#smallTopSquare{
-	
-		width: 80px;
-		height: 80px;
-		position: absolute;
-	/* 
-		z-index: 4; */
-		top: 90px;
-		right: 200px;
-		background-color: white;
-	
-	}
-	
-	#bigTopSquare{
-		width: 150px;
-		height: 150px;
-		position: absolute;
-		/* z-index: 4; */
-		top: 50px;
-		right: 30px;
-		background-color: white;
-	
-	}
-	
-	
-	#topSmallCircle{
-		height: 60px;
-		width: 60px;
-		border-radius: 100%;
-		border: 2px solid;
-		position: absolute;
-		z-index: 5;
-		top: 100px;
-		right: 210px;
-		background-color: black;
-	}
-	
-	
-	
-	#curvyLine{
-		position: absolute;
-		/* z-index: 5; */
-		top: 90px;
-		right: 4px;
-	
-	}
-	
-	
+}
+
+
 	
 
 #phoneCard{
