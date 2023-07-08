@@ -348,13 +348,20 @@
 	}
 
 
-#twoPhones{
-	display: flex;
-	flex-direction: row;
-	position: relative;
-	padding: 50px;
-	
-}
+
+	#twoPhones{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		padding: 25px;
+		gap: 10px;
+		
+
+		/* padding: 30px; */
+		
+	}
 
 
 #phoneOne{
@@ -362,7 +369,7 @@
 	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
 	left: 5px;
 	position: absolute; 
-	border: solid;
+
 	width: 120px;
 	top: 10px;
 
@@ -371,9 +378,9 @@
 #phoneTwo{
 	fill: #1D1D25;
 	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
-	left: 120px;
+	left: 60px;
 	position: relative;
-	border: solid;
+	
 	width: 120px;
 
 	}
@@ -910,6 +917,7 @@ footer{
 		align-items: center;
 		position: relative;
 		padding: 25px;
+		gap: 30px;
 		
 
 		/* padding: 30px; */
@@ -919,21 +927,22 @@ footer{
 #phoneOne{
 	fill: #1D1D25;
 	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
-	left: 25px;
+	
 	position: absolute; 
-	border: solid;
+
 	width: 150px;
 	top: 10px;
+	left: 20px;
 
 }
 
 #phoneTwo{
 	fill: #1D1D25;
 	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
-	left: 130px;
+	
 	position: relative;
-	border: solid;
 	width: 150px;
+	left: 100px;
 
 	}
 
@@ -979,6 +988,14 @@ footer{
 	line-height: 28px;
 	letter-spacing: 0.5px;
 
+}
+
+
+
+#laptop{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
