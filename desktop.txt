@@ -1,3 +1,257 @@
+		<div id="desktop">
+		
+		<body>
+			<nav>
+
+				
+				<div  id="navLogoStrips">
+
+					<img id="logo" alt="nav-logo" src="assets/logo.svg"/>
+
+					<div id="navProduct">
+					<span>Product</span><img id="navArrow" alt="banner-arrow" src="assets/arrow_down.svg"/>
+					<span>Company</span><img id="navArrow" alt="banner-arrow" src="assets/arrow_down.svg"/>
+					<span>Connect</span><img id="navArrow" alt="banner-arrow" src="assets/arrow_down.svg"/>
+					</div>
+					
+					<div id="navSignUp"></div>
+					<span id="login">Login</span>
+					<!-- <span id="signUp">Sign Up</span> -->
+					
+
+				</div>
+
+
+				<span  id="navTitle">
+					A modern publishing platform
+				</span>
+				
+				
+				<p  id="navText">
+					Grow your audience and build your online brand
+				</p>
+
+
+				<div  id="navButtons">
+					<span id="leftButton">Start for Free</span>
+					<span id="rightButton">Learn More</span>
+
+				</div>
+
+											<!-- square circles on nav bar -->
+
+			<div class="backgroundSquare" id="backgroundSquare1">
+
+			</div>
+
+			<div class="backgroundSquare" id="backgroundSquare2">
+
+			</div>
+
+
+			<div class="backgroundSquare" id="backgroundSquare3">
+	
+			</div>
+
+
+			</nav>
+
+
+			
+		<div id="midSection">
+
+			<span id="futureDesign">Designed for the future</span>
+
+			<div id="splitContent">
+
+				<!-- text content  extensible and robust texts -->
+				<div id="textContents">
+
+					<div>
+						
+						<span id="extensibleTitle">Introducing an extensible editor</span>
+
+						<p id="extensibleText">
+							Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or change the looks of a blog.
+						</p>
+
+					</div>
+					
+					<div>
+						<span id="robustTitle">
+							Robust content management
+						</span>
+		
+						<p id="robustText">
+							Flexible content management enables users to easily move through posts. Increase the usability of your blog by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+						</p>
+						
+
+					</div>
+			
+
+				</div>
+
+				<!-- the badge -->
+				<div id="badge">
+
+					<div id="outerCircle"></div>
+					<div id="innerCircle"></div>
+	
+					
+					
+						<div id="topSquare"></div>
+	
+	
+						<div id="bottomSquare">
+							<svg width="326" height="154" viewBox="0 0 326 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0 3.5246C0 1.86774 1.34315 0.524597 3 0.524597H323C324.657 0.524597 326 1.86774 326 3.5246V151C326 152.657 324.657 154 323 154H3.00001C1.34315 154 0 152.657 0 151V3.5246Z" fill="#2D2E40"/>
+							  </svg>
+						</div>
+
+						<div id="smallTopSquare">
+
+						</div>
+
+						<div id="bigTopSquare">
+
+						</div>
+
+
+						<div id="topSmallCircle">
+
+						</div>
+
+
+						<img id="curvyLine" alt="curvy-line" src="assets/curvy_line.svg"/>
+
+	
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="phoneCard">
+
+		
+			<div id="phones">
+		
+				<img id="phoneOne" alt="iphone" src="assets/phone.svg"/>
+				<img id="phoneTwo" alt="iphone" src="assets/phone.svg"/>
+		
+			</div>
+
+				  
+			<div id="phoneTexts">
+
+			  <div id="cardTitle">
+				  State of the Art Infrastructure
+			  </div>
+
+			  <div id="cardText">
+				  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+			  </div>
+
+			</div>
+
+	  </div>
+
+
+
+
+		<div id="bottomSection">
+			<div>
+
+			</div>
+
+			<div id="bottomSectionText">
+
+				<div id="freeOpenTitle">
+					Free, open, simple
+				</div>
+				<div id="freeOpenText">
+					Blogr is a free and open source application backed by a large community of helpful developers. It supports features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+				</div>
+
+
+				<div id="toolingTitle">
+					Powerful tooling
+				</div>
+
+				<div id="toolingText">
+					Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but capable of producing even the most complicated sites.
+				</div>
+				
+
+
+			</div>
+
+		</div>
+
+	
+
+		<footer>
+			<img id="footerLogo" alt="footer-logo" src="assets/logo.svg"/>
+
+			  	<div>
+					<div id="footerLinkTitle">product</div>
+					<div id="footerLinkItems">overview</div>
+					<div id="footerLinkItems">pricing</div>
+					<div id="footerLinkItems">marketplace</div>
+					<div id="footerLinkItems">features</div>
+					<div id="footerLinkItems">integrations</div>
+				</div>
+				
+				<div>
+					<div id="footerLinkTitle">company</div>
+					<div id="footerLinkItems">about</div>
+					<div id="footerLinkItems">team</div>
+					<div id="footerLinkItems">blog</div>
+					<div id="footerLinkItems">careers</div>
+				</div>
+
+				<div>
+
+				<div id="footerLinkTitle">connect</div>
+				<div id="footerLinkItems">contact</div>
+				<div id="footerLinkItems">newsletter</div>
+				<div id="footerLinkItems">linkedIn</div>
+
+			  </div>
+
+		</footer>
+
+	</body>
+
+		</div>	
+	
+	
+	
+	
+	
+
+
+
+
+###################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/* desktop screens */
 	
 	
