@@ -894,8 +894,6 @@ nav{
 
 #badge{
 
-	/* padding: 20px;
-	margin: 20px; */
 	position: relative;
 	float: right;
 
@@ -903,14 +901,14 @@ nav{
 }
 
 
-
+ 
 #outerCircle{
 	border-radius: 70%;
 	border: 1px solid #2D2E40;
 	width: 450px;
 	height: 450px;
 	position: absolute;
-	/* padding: 20px; */
+
 	
 	right: 5px;
 	bottom: 140px;
@@ -924,7 +922,7 @@ nav{
 	width: 350px;
 	height: 350px;
 	position: absolute;
-	/* padding: 20px; */
+
 	
 	right: 16px;
 	bottom: 200px;
@@ -959,8 +957,7 @@ nav{
 	width: 80px;
 	height: 80px;
 	position: absolute;
-/* 
-	z-index: 4; */
+
 	top: 90px;
 	right: 200px;
 	background-color: white;
@@ -971,7 +968,7 @@ nav{
 	width: 150px;
 	height: 150px;
 	position: absolute;
-	/* z-index: 4; */
+
 	top: 50px;
 	right: 30px;
 	background-color: white;
@@ -995,217 +992,11 @@ nav{
 
 #curvyLine{
 	position: absolute;
-	/* z-index: 5; */
+
 	top: 90px;
 	right: 4px;
-
 }
-	
-	
-	}
-	
-	
-	
-	#outerCircle{
-		border-radius: 70%;
-		border: 1px solid #2D2E40;
-		width: 300px;
-		height: 300px;
-		position: absolute;
-		padding: 20px;
-		
-		right: 5px;
-		top: 1px;
-			
-		}
-	
-	#innerCircle{
-		border-radius: 510px;
-		border: 1px solid #2D2E40;
-		
-		width: 250px;
-		height: 250px;
-		position: absolute;
-		padding: 20px;
-		
-		right: 16px;
-		top:1px;
-		
-	}
-	
-	
-	#topSquare{
-		
-		width: 326px;
-		height: 60px;
-		border-radius: 5px;
-		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
-		position: absolute;
-		
-		top: 20px;
-		right: 0px;
-	
-	}
-	
-	#bottomSquare{
-			position: absolute;
-			top: 80px;
-			right: 0px;
-	
-		}
-	
-	
-	#smallTopSquare{
-	
-		width: 80px;
-		height: 80px;
-		position: absolute;
-	/* 
-		z-index: 4; */
-		top: 90px;
-		right: 200px;
-		background-color: white;
-	
-	}
-	
-	#bigTopSquare{
-		width: 150px;
-		height: 150px;
-		position: absolute;
-		/* z-index: 4; */
-		top: 50px;
-		right: 30px;
-		background-color: white;
-	
-	}
-	
-	
-	#topSmallCircle{
-		height: 60px;
-		width: 60px;
-		border-radius: 100%;
-		border: 2px solid;
-		position: absolute;
-		z-index: 5;
-		top: 100px;
-		right: 210px;
-		background-color: black;
-	}
-	
-	
-	
-	#curvyLine{
-		position: absolute;
-		/* z-index: 5; */
-		top: 90px;
-		right: 4px;
-	
-	}
-	
-	
-
-	
-	
-	
-	#outerCircle{
-		border-radius: 70%;
-		border: 1px solid #2D2E40;
-		width: 300px;
-		height: 300px;
-		position: absolute;
-		/* padding: 20px; */
-		
-		right: 5px;
-		top: 1px;
-			
-		}
-	
-	#innerCircle{
-		border-radius: 510px;
-		border: 1px solid #2D2E40;
-		
-		width: 250px;
-		height: 250px;
-		position: absolute;
-		padding: 20px;
-		
-		right: 16px;
-		top:1px;
-		
-	}
-	
-	
-	#topSquare{
-		
-		width: 326px;
-		height: 60px;
-		border-radius: 5px;
-		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
-		position: absolute;
-		
-		top: 20px;
-		right: 0px;
-	
-	}
-	
-	#bottomSquare{
-			position: absolute;
-			top: 80px;
-			right: 0px;
-	
-		}
-	
-	
-	#smallTopSquare{
-	
-		width: 80px;
-		height: 80px;
-		position: absolute;
-	/* 
-		z-index: 4; */
-		top: 90px;
-		right: 200px;
-		background-color: white;
-	
-	}
-	
-	#bigTopSquare{
-		width: 150px;
-		height: 150px;
-		position: absolute;
-		/* z-index: 4; */
-		top: 50px;
-		right: 30px;
-		background-color: white;
-	
-	}
-	
-	
-	#topSmallCircle{
-		height: 60px;
-		width: 60px;
-		border-radius: 100%;
-		border: 2px solid;
-		position: absolute;
-		z-index: 5;
-		top: 100px;
-		right: 210px;
-		background-color: black;
-	}
-	
-	
-	
-	#curvyLine{
-		position: absolute;
-		/* z-index: 5; */
-		top: 90px;
-		right: 4px;
-	
-	}
-	
-
+	 
 	
 
 #phoneCard{
@@ -1367,7 +1158,7 @@ footer{
 	border-radius: 0px 100px 0px 0px;
 	background: #24242C;
 	padding: 20px;
-	/* height: 30px; */
+
 }
 
 #footerLogo{
@@ -1396,7 +1187,7 @@ footer{
 	font-style: normal;
 	font-weight: 400;
 	line-height: 33px;
-	/* padding: 10px; */
+
 	text-transform: capitalize;
 }
 
