@@ -301,7 +301,7 @@
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
-	margin-top: 350px;
+	margin-top: 50px;
 	
 }
 
@@ -346,6 +346,7 @@
 	line-height: 28px;
 	letter-spacing: 0.5px;
 	padding: 30px;
+	margin-bottom: 120px;
 
 	}
 
@@ -353,15 +354,15 @@
 
 #twoPhones{
 	display: flex;
-	flex-direction: row;
+	
 	justify-content: center;
 	align-items: center;
 	position: relative;
 	padding: 25px;
 	gap: 10px;
-	
+	margin-top: 20px;
 
-	/* padding: 30px; */
+	
 	
 }
 
@@ -369,23 +370,24 @@
 #phoneOne{
 	fill: #1D1D25;
 	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
-	left: 5px;
+	left: 35px;
 	position: absolute; 
 
-	width: 90px;
-	top: 10px;
+	width: 250px;
+
+
 
 }
 
-#phoneTwo{
+/* #phoneTwo{
 	fill: #1D1D25;
 	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
 	left: 60px;
 	position: relative;
 	
-	width: 90px;
+	width: 250px;
 
-	}
+	} */
 
 #card{
 	border-radius: 0px 100px;
@@ -393,20 +395,21 @@
 	background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
 	/* padding: 20px; */
 	/* height: 600px; */
-	overflow: hidden;
+
 	padding: 20px;
+	margin-top: 50px;
 
 
 }
 
 
 #cardTitle{
-	padding-top: 50px;
-	padding-bottom: 30px;
+	padding-top: 100px;
+	padding-bottom: 17px;
 	color: #FFF;
 	text-align: center;
 	font-family: Overpass SemiBold;
-	font-size: 40px;
+	font-size: 25px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
@@ -443,10 +446,10 @@
 }
 
 
-#laptopKeyboard{
+/* #laptopKeyboard{
 	border-radius: 3px 3px 0px 0px;
 background: #52526F;
-}
+} */
 
 
 #freeOpenTitle{
@@ -822,25 +825,25 @@ footer{
 	letter-spacing: 0.5px;
 	padding: 30px;
 
+
 	}
 
 
 
 
 	#twoPhones{
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
+
 		position: relative;
-		padding: 25px;
-		gap: 10px;
-		
-	
-		/* padding: 30px; */
+		z-index: 1;
 		
 	}
-	
+
+
+
+
+
+
+/* 	
 	
 	#phoneOne{
 		fill: #1D1D25;
@@ -861,27 +864,25 @@ footer{
 		
 		width: 90px;
 	
-		}
+		} */
 
 #card{
 	border-radius: 0px 100px;
 
 	background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
 	padding: 20px; 
-	height: 500px;
-	padding: 20px;
-
-
+	position: relative;
+	bottom: 100px;
 }
 
 
 #cardTitle{
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-bottom: 30px;
 	color: #FFF;
 	text-align: center;
 	font-family: Overpass SemiBold;
-	font-size: 17px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
@@ -893,12 +894,12 @@ footer{
 
 #cardText{
 	padding: 50px;
-	padding-bottom: 90px;
+	padding-bottom: 100px;
 	text-align: justify;
 	color: #FFF;
 	text-align: center;
 	font-family: Overpass;
-	font-size: 16px;
+	font-size: 18px;
 	font-style: normal;
 	font-weight: 300;
 	line-height: 28px;
@@ -916,17 +917,62 @@ footer{
 	padding: 50px;
 }
 
+#freeOpenTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 40px;
+	
+	}
+	
+	#freeOpenText{
+	
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 20px;
+	text-align: justify;
+	
+	}
 
 
 
-
-#laptopText{
-	display: flex;
-		justify-content: center;
-		align-items: center;
-	padding: 50px;
-
-}
+#toolingTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 40px;
+	
+	}
+	
+	#toolingText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 30px;
+	padding-bottom: 60px;
+	text-align: justify;
+	
+	} 
+	
 
 
 footer{
@@ -1212,6 +1258,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	width: 100%;
 	gap: 30px;
 	
 	}
@@ -1335,33 +1382,43 @@ footer{
 
 
 	
-	#phoneCard{
+	#card{
 	
 	border-radius: 0px 100px;
 	background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
-	padding-top: 30px;
+
 	padding-left: 10px;
-	padding-right: 30px;
-	padding-bottom: 50px;
-	height: 260px;
 	position: relative;
-	z-index: 1;
-	margin-top: 50px;
+	padding: 20px;
 	
 	}
 	
+
+
+#phones{
+
+	position: absolute;
+	top: 20px;
+	bottom: 80px;
+	z-index: 1;
+	
+	
+	
+	}
+
+
 	
 	#cardTitle{
 	color: #FFF;
 	font-family: Overpass SemiBold;
-	font-size: 40px;
+	font-size: 25px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
 	letter-spacing: -1.2px;
-	
-	padding-bottom: 20px;
+	padding: 15px;
 	padding-left: 400px;
+
 	
 	
 	}
@@ -1376,58 +1433,28 @@ footer{
 	font-weight: 300;
 	line-height: 28px;
 	letter-spacing: 0.5px;
-	padding-left: 250px;
-	padding-right: 150px; 
-	padding-bottom: 20px;
+	padding: 15px;
+	padding-left: 400px;
+
+
 	
 	}
 	
-	
-	#phones{
-	display:flex;
-	flex-direction: row;
-	position: absolute;
-	top: 0px;
-	
-	
-	
-	}
-	
-	
-	#phoneOne{
-	padding-bottom: 10px;
-	position: absolute;
-	z-index: 2;
-	left: 20px;
-	width: 130px;
-	
-	}
-	
-	
-	#phoneTwo{
-	padding-top: 10px;
-	position: absolute;
-	z-index: 2;
-	left: 200px;
-	width: 130px;
-	
-	}
-	
+
 	
 	
 
 
-	
-/* 	
-	#bottomSection{
+	/* #bottomSection{
 	padding: 20px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	gap: 40px;
-	}
+	gap: 10px;
+
+	} */
 	
-	
+
+	/* 	
 	#bottomSectionText{
 	display: flex;
 	flex-direction: column;
@@ -1490,30 +1517,14 @@ footer{
 	
 
 
-	 #laptop{
-		display: flex;
-		
-			justify-content: center;
-			align-items: center;
-		justify-content: center;
-		align-items: center;
-		width: 200px;
-	}
-	
-	
-	
-	
-	
-	#laptopText{
-		display: flex;
-	
-			justify-content: center;
-			align-items: center;
-		width: 400px;
-		margin-bottom: 40px;
-	
-	}
+	 #laptopSection{
 
+		width: 100%;
+		height: auto;
+		
+	
+	}
+	
 
 
 
@@ -1532,7 +1543,7 @@ footer{
 	}
 	
 	#footerLogo{
-	padding: 40px;
+	/* padding: 40px; */
 	}
 	
 	
@@ -1796,6 +1807,14 @@ padding: 70px;
 }
 
 
+
+#midSection{
+	width: 100%;
+	height: auto;
+}
+
+
+/* 
 #midSection{
 display: flex;
 flex-direction: column;
@@ -1917,7 +1936,7 @@ padding: 50px;
 	width: 500px;
 	height: 500px;
 	right: 0px;
-}
+} */
 
 
 		
@@ -1926,7 +1945,7 @@ padding: 50px;
 
 
 
-#phoneCard{
+#card{
 
 border-radius: 0px 100px;
 background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
