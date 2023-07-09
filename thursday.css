@@ -1133,11 +1133,13 @@ footer{
 
 
 
+@media only screen and (min-width: 800px) and (max-width: 1200px) {}
+
 
 /* desktop screens */
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1200px) {
 
 
 
@@ -1161,7 +1163,7 @@ display: none;
 
 
 nav{
-padding: 40px;
+padding: 30px;
 display: flex;
 flex-direction: column;
 position: relative;
@@ -1328,7 +1330,7 @@ border-radius: 0px 0px 100px 0px;
 background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
 bottom: 0px;
 right: 0px;
-padding: 100px;
+padding: 80px;
 
 
 
@@ -1356,7 +1358,7 @@ border-radius: 0px 0px 100px 0px;
 background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 top: 0px;
 right: 0px;
-padding: 90px;
+padding: 70px;
 
 
 }
@@ -1400,7 +1402,7 @@ gap: 20px;
 display: flex;
 flex-direction: column;
 position: relative;
-width: 400px;
+width: 800px;
 
 }
 
@@ -1481,6 +1483,7 @@ padding: 50px;
 #badge{
 
 position: relative;
+width: 300px;
 /* margin-left: 255px; */
 
 
@@ -1489,6 +1492,125 @@ position: relative;
 }
 
 
+
+
+
+
+#outerCircle{
+	border-top-left-radius: 440px;
+    border-bottom-left-radius: 440px;
+    border: 3px solid #eeeef6;
+    border-right: 0;
+    width: 310px;
+    height: 570px;
+    position: absolute;
+	left: 100px;
+	bottom: 20px;
+}
+
+
+
+
+
+#middleCircle{
+	border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+    border: 3px solid #eeeef6;
+    border-right: 0;
+    width: 250px;
+    height: 480px;
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+}
+
+
+
+
+
+#innerCircle{
+	border-top-left-radius: 260px;
+	border-bottom-left-radius: 260px;
+	background-color: #eeeef6;
+	border: 5px solid #eeeef6;
+	border-right: 0;
+	width: 180px;
+	height: 390px;
+	position: absolute;	
+	right: 0px;
+	bottom: 30px;
+}
+
+
+
+
+#squares{
+	position: relative;
+	left: 440px;
+	bottom: 50px;
+}
+
+
+
+
+#topSquare{
+	width: 326px;
+	height: 100px;
+	box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+	position: absolute;
+	top: 70px;
+	right: 0px;
+	}
+
+#bottomSquare{
+	position: absolute;
+	top: 130px;
+	right: 0px;
+	}
+
+
+	#smallTopSquare{
+		width: 80px;
+		height: 80px;
+		position: absolute;
+		top: 90px;
+		right: 200px;
+		background-color: white;
+		}
+		#bigTopSquare{
+		width: 150px;
+		height: 150px;
+		position: absolute;
+		top: 80px;
+		right: 30px;
+		background-color: white;
+		}
+		#topSmallCircle{
+		height: 60px;
+		width: 60px;
+		border-radius: 100%;
+		border: 2px solid;
+		position: absolute;
+		z-index: 5;
+		top: 100px;
+		right: 210px;
+		background-color: black;
+		}
+		#curvyLine{
+		position: absolute;
+		top: 100px;
+		right: 4px;
+		}
+		
+	
+
+
+
+
+
+
+/* 
 
 #outerCircle{
 	border-top-left-radius: 600px;
@@ -1516,8 +1638,7 @@ position: relative;
 	padding-left: 400px;
 	padding-left: 400px;
 	z-index: 2;
-    /* margin-bottom: 500px; */
-    /* right: 0px; */
+
 }
 
 
@@ -1535,8 +1656,7 @@ position: relative;
 	padding-left: 142px;
 	padding-top: 20px;
 	z-index: 1;
-	/* right: 0px; */
-	/* bottom: 30px; */
+
 
 }
 
@@ -1559,7 +1679,7 @@ position: absolute;
 margin-bottom: 200px;
 margin-left: 390px;
 z-index: 4;
-/* right: 0px; */
+
 
 }
 
@@ -1607,7 +1727,7 @@ position: absolute;
 margin-bottom: 200px;
 margin-left: 500px; 
 }
-
+ */
 
 
 #phoneCard{
@@ -1616,7 +1736,7 @@ border-radius: 0px 100px;
 background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
 padding-top: 30px;
 padding-left: 10px;
-padding-right: 50px;
+padding-right: 30px;
 padding-bottom: 50px;
 height: 260px;
 position: relative;
@@ -1636,7 +1756,7 @@ line-height: normal;
 letter-spacing: -1.2px;
 
 padding-bottom: 20px;
-padding-left: 500px;
+padding-left: 400px;
 
 
 }
@@ -1651,7 +1771,7 @@ font-style: normal;
 font-weight: 300;
 line-height: 28px;
 letter-spacing: 0.5px;
-padding-left: 500px;
+padding-left: 400px;
 padding-right: 150px; 
 padding-bottom: 20px;
 
