@@ -1133,7 +1133,682 @@ footer{
 
 
 
-@media only screen and (min-width: 800px) and (max-width: 1200px) {}
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	}
+	
+	#desktop{
+	display: block;
+	}
+	
+	
+	#mobile{
+	display: none;
+	}
+	
+	
+	
+	nav{
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	border-radius: 0px 0px 0px 100px;
+	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+	z-index: 1;
+	
+	}
+	
+	#navLogoStrips{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* padding: 20px; */
+	}
+	
+	
+	
+	
+	
+	#navProduct{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	padding: 20px;
+	}
+	
+	#navProduct span{
+	color: #FFF;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	}
+	
+	
+	#navArrow{
+	padding-bottom: 5px;
+	
+	}
+	
+	
+	
+	
+	#login{
+	color: #FFF;
+	text-align: right;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	}
+	
+	#signUp{
+	color: #FF505C;
+	text-align: right;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	border-radius: 28px;
+	background-color: #FFF;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+	
+	}
+	
+	
+	
+	#navTitle{
+	color: #FFF;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -1.08px;
+	padding-top: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	}
+	
+	#navText{
+	color: #FFF;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	}
+	
+	
+	
+	
+	#navButtons{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+	padding-bottom: 100px;
+	padding-top: 2px;
+	padding-right: 50px;
+	padding-left: 50px;
+	
+	
+	}
+	
+	#leftButton{
+	color: #FF505C;
+	text-align: right;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	border-radius: 28px;
+	background: #FFF;
+	padding: 10px;
+	}
+	
+	#rightButton{
+	color: #FFF;
+	text-align: right;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	border-radius: 28px;
+	border: 1px solid #FFF;
+	padding: 10px;
+	}
+	
+	
+	
+	
+	.raisedItems{
+	position:relative;
+	z-index: 3;
+	}
+	
+	.backgroundSquare{
+	z-index: -1;
+	position: absolute;
+	
+	
+	}
+	
+	
+	#backgroundSquare1{
+	
+	transform: rotate(180deg);
+	border-radius: 0px 0px 100px 0px;
+	background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
+	bottom: 0px;
+	right: 0px;
+	padding: 80px;
+	
+	
+	
+	
+	}
+	
+	#backgroundSquare2{
+	
+	
+	transform: rotate(0deg);
+	border-radius: 600.383px; 
+	background: linear-gradient(10deg, #FF8F71 0%, #FF3E55 100%);
+	bottom: 0px;
+	left: 200px;
+	padding: 200px;
+	
+	
+	
+	}
+	
+	#backgroundSquare3{
+	
+	transform: rotate(90deg);
+	border-radius: 0px 0px 100px 0px;
+	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+	top: 0px;
+	right: 0px;
+	padding: 70px;
+	
+	
+	}
+	
+	
+	#midSection{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+	
+	}
+	
+	
+	
+	#futureDesign{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -1.2px;
+	padding: 60px;
+	
+	}
+	
+	
+	#splitContent{
+	display: flex;
+	flex-direction: row;	
+	position: relative;
+	gap: 20px;
+	
+	}
+	
+	
+	
+	#textContents{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 600px;
+	
+	}
+	
+	
+	
+	
+	#extensibleTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 30px;
+	text-align: center;
+	
+	
+	
+	
+	
+	}
+	
+	
+	#extensibleText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	padding: 50px;
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	#robustTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 30px;
+	
+	
+	
+	
+	
+	}
+	
+	
+	#robustText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 50px;
+	
+	
+	}
+	
+	
+	
+	#badge{
+	
+	position: relative;
+	width: 300px;
+	/* margin-left: 255px; */
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+#circles{
+	position: relative;
+	top: 300px;
+}
+	
+	#outerCircle{
+		border-top-left-radius: 440px;
+		border-bottom-left-radius: 440px;
+		border: 3px solid #eeeef6;
+		border-right: 0;
+		width: 210px;
+		height: 270px;
+		position: absolute;
+		left: 20px;
+		bottom: 20px;
+	}
+	
+	
+	
+	
+	
+	#middleCircle{
+		border-top-left-radius: 300px;
+		border-bottom-left-radius: 300px;
+		border: 3px solid #eeeef6;
+		border-right: 0;
+		width: 130px;
+		height: 240px;
+		position: absolute;
+		bottom: 10px;
+		left: 30px;
+	}
+	
+	
+	
+	
+	
+	#innerCircle{
+		border-top-left-radius: 260px;
+		border-bottom-left-radius: 260px;
+		background-color: #eeeef6;
+		border: 5px solid #eeeef6;
+		border-right: 0;
+		width: 100px;
+		height: 190px;
+		position: absolute;	
+		right: 0px;
+		bottom: 30px;
+	}
+	
+	
+	
+	
+	#squares{
+		position: relative;
+		left: 240px;
+		top: 20px;
+	}
+	
+	
+	
+	
+	#topSquare{
+		width: 220px;
+		height: 60px;
+		box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
+		background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+		position: absolute;
+		top: 70px;
+		right: 0px;
+		border-top-right-radius: 4px;
+		border-top-left-radius: 4px;
+		}
+	
+	#bottomSquare{
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+		width: 220px;
+		height: 102px;
+		flex-shrink: 0;
+		background-color: #2D2E40;
+		position: absolute;
+		top: 130px;
+		right: 0px;
+		}
+	
+	
+		#smallTopSquare{
+			width: 80px;
+			height: 80px;
+			position: absolute;
+			top: 90px;
+			right: 130px;
+			background-color: white;
+			}
+			#bigTopSquare{
+			width: 90px;
+			height: 120px;
+			position: absolute;
+			top: 100px;
+			right: 20px;
+			background-color: white;
+			}
+			#topSmallCircle{
+			height: 40px;
+			width: 40px;
+			border-radius: 100%;
+			border: 2px solid;
+			position: absolute;
+			z-index: 5;
+			top: 100px;
+			right: 150px;
+			background-color: black;
+			}
+			#curvyLine{
+			position: absolute;
+			width: 120px;
+			top: 125px;
+			right: 10px;
+			}
+			
+		
+	
+	
+
+	
+	#phoneCard{
+	
+	border-radius: 0px 100px;
+	background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	height: 260px;
+	position: relative;
+	z-index: 1;
+	margin-top: 50px;
+	
+	}
+	
+	
+	#cardTitle{
+	color: #FFF;
+	font-family: Overpass SemiBold;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: -1.2px;
+	
+	padding-bottom: 20px;
+	padding-left: 400px;
+	
+	
+	}
+	
+	
+	#cardText{
+	
+	color: #FFF;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding-left: 400px;
+	padding-right: 150px; 
+	padding-bottom: 20px;
+	
+	}
+	
+	
+	#phones{
+	display:flex;
+	flex-direction: row;
+	position: absolute;
+	top: 0px;
+	
+	
+	
+	}
+	
+	
+	#phoneOne{
+	padding-bottom: 10px;
+	position: absolute;
+	z-index: 2;
+	left: 20px;
+	width: 130px;
+	
+	}
+	
+	
+	#phoneTwo{
+	padding-top: 10px;
+	position: absolute;
+	z-index: 2;
+	left: 200px;
+	width: 130px;
+	
+	}
+	
+	
+	
+	
+	#bottomSection{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 40px;
+	}
+	
+	
+	#bottomSectionText{
+	display: flex;
+	flex-direction: column;
+	}
+	
+	#freeOpenTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 40px;
+	
+	}
+	
+	#freeOpenText{
+	
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 20px;
+	text-align: justify;
+	
+	}
+	
+	#toolingTitle{
+	color: #1F3E5A;
+	text-align: center;
+	font-family: Overpass SemiBold;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 32px;
+	padding: 40px;
+	
+	}
+	
+	#toolingText{
+	color: #4C5862;
+	text-align: center;
+	font-family: Overpass;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	padding: 30px;
+	padding-bottom: 60px;
+	text-align: justify;
+	
+	}
+	
+	
+	
+	
+	footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 0px 100px 0px 0px;
+	background: #24242C;
+	padding: 20px;
+	
+	}
+	
+	#footerLogo{
+	padding: 40px;
+	}
+	
+	
+	#footerLinkTitle{
+	color: #FFF;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 33px;
+	padding: 40px;
+	text-transform: capitalize;
+	}
+	
+	
+	#footerLinkItems{
+	color: #FFF;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 33px;
+	
+	text-transform: capitalize;
+	}
+	
+	
+	
+	
+	}
+	
 
 
 /* desktop screens */
@@ -1606,128 +2281,6 @@ width: 300px;
 	
 
 
-
-
-
-
-/* 
-
-#outerCircle{
-	border-top-left-radius: 600px;
-    border-bottom-left-radius: 600px;
-    border: 3px solid #eeeef6;
-    border-right: 0;
-    width: 250px;
-    height: 300px;
-    position: absolute;
-	margin-left: 100px;
-	margin-bottom: 100px;
-	z-index: 3;
-
-}
-
-
-#middleCircle{
-	border-top-left-radius: 400px;
-    border-bottom-left-radius: 400px;
-    border: 3px solid #eeeef6;
-    border-right: 0;
-    width: 200px;
-    height: 400px;
-    position: absolute;
-	padding-left: 400px;
-	padding-left: 400px;
-	z-index: 2;
-
-}
-
-
-
-
-#innerCircle{
-	border-top-right-radius: 160px;
-	border-bottom-right-radius: 160px;
-	background-color: #eeeef6;
-	border: 1px solid #eeeef6;
-	border-right: 0;
-	width: 180px;
-	height: 200px;
-	position: absolute;	
-	padding-left: 142px;
-	padding-top: 20px;
-	z-index: 1;
-
-
-}
-
-#topSquare{
-
-width: 326px;
-height: 60px;
-border-radius: 5px;
-background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
-box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
-position: absolute;
-z-index: 4;
-margin-bottom: 300px;
-margin-left: 390px;
-
-}
-
-#bottomSquare{
-position: absolute;
-margin-bottom: 200px;
-margin-left: 390px;
-z-index: 4;
-
-
-}
-
-
-#smallTopSquare{
-
-width: 80px;
-height: 80px;
-position: absolute;
-margin-bottom: 190px;
-margin-left: 400px;
-z-index: 5;
-background-color: white;
-
-}
-
-#bigTopSquare{
-width: 150px;
-height: 150px;
-position: absolute;
-margin-bottom: 190px;
-margin-left: 500px;
-z-index: 5;
-background-color: white;
-
-}
-
-
-#topSmallCircle{
-height: 60px;
-width: 60px;
-border-radius: 100%;
-border: 2px solid;
-position: absolute;
-z-index: 5;
-margin-bottom: 200px;
-margin-left: 390px;
-background-color: black;
-}
-
-
-
-#curvyLine{
-position: absolute;
-margin-bottom: 200px;
-margin-left: 500px; 
-}
- */
 
 
 #phoneCard{
