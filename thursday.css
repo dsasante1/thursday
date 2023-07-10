@@ -4,11 +4,11 @@
 		padding: 0px;
 		box-sizing: border-box;
 	}
-	
+
 	#desktop{
 		display: none;
 	}
-	
+
 	nav{
 		padding: 60px;
 		display: flex;
@@ -34,7 +34,7 @@
 	#navTitle{
 		color: #FFF;
 		text-align: center;
-		font-family: Overpass SemiBold;
+		font-family: ''Overpass' 'SemiBold'';
 		font-size: 36px;
 		font-style: normal;
 		font-weight: 600;
@@ -49,7 +49,7 @@
 	#navText{
 		color: #FFF;
 		text-align: center;
-		font-family: Overpass;
+		font-family: 'Overpass';
 		font-size: 18px;
 		font-style: normal;
 		font-weight: 300;
@@ -73,7 +73,7 @@
 	#leftButton{
 		color: #FF505C;
 		text-align: right;
-		font-family: Ubuntu;
+		font-family: 'ubuntu';
 		font-size: 10px;
 		font-style: normal;
 		font-weight: 700;
@@ -86,7 +86,7 @@
 	#rightButton{
 		color: #FFF;
 		text-align: right;
-		font-family: Ubuntu;
+		font-family: 'ubuntu';
 		font-size: 10px;
 		font-style: normal;
 		font-weight: 700;
@@ -94,7 +94,7 @@
 		border-radius: 28px;
 		border: 1px solid #FFF;
 		padding: 10px;
-		
+
 	}
 
 
@@ -107,28 +107,28 @@
 	.backgroundSquare{
 		z-index: -1;
 		position: absolute;
-		
-		
+
+
 	}
 
 
 	#backgroundSquare1{
-		
+
 		transform: rotate(180deg);
 		border-radius: 0px 0px 100px 0px;
 		background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
 		bottom: 0px;
 		right: 0px;
 		padding: 50px;
-		
-		
-		
-	
+
+
+
+
 	}
 
 	#backgroundSquare2{
 
-		
+
 		transform: rotate(-22deg);
 		border-radius: 370.383px;
 		background: linear-gradient(50deg, #FF8F71 0%, #FF3E55 100%);
@@ -136,7 +136,7 @@
 		left: -90px;
 		padding: 170px;
 
-	
+
 	}
 
 	#backgroundSquare3{
@@ -147,26 +147,26 @@
 		top: 0px;
 		left: 20px;
 		padding: 120px;
-	
+
 
 	}
-	
+
 
 	#midSection{
-		
+
 		display: flex;
 		flex-direction: column;
 		padding-top: 100px;
 		padding-left: 20px;
 		padding-right: 20px;
 		position: relative;
-		
+
 	}
 
 	#futureDesign{
 		color: #1F3E5A;
 		text-align: center;
-		font-family: Overpass SemiBold;
+		font-family: 'Overpass' 'SemiBold';
 		font-size: 28px;
 		font-style: normal;
 		font-weight: 600;
@@ -199,32 +199,32 @@
 	height: 260px;
 	position: absolute;
 	left: 23px;
-		
+
 	}
 
 #innerCircle{
 	border-radius: 510px;
 	border: 1px solid #2D2E40;
-	
+
 	width: 230px;
 	height: 230px;
 	position: absolute;
-	
+
 	left: 40px;
 	top:10px;
-	
+
 }
 
 
 #topSquare{
-	
+
 	width: 240px;
 	height: 60px;
 	border-radius: 5px;
 	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 	box-shadow: 0px 20px 40px 0px rgba(108, 141, 228, 0.24);
 	position: absolute;
-	
+
 
 	margin-top: 38px;
 	margin-left: 34px;
@@ -258,7 +258,7 @@
 	width: 100px;
 	height: 150px;
 	position: absolute;
-	
+
 	margin-top: 60px;
 	margin-left: 160px;
 	background-color: white;
@@ -296,20 +296,20 @@
 #extensibleTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
 	margin-top: 50px;
-	
+
 }
 
 
 #extensibleText{
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -326,7 +326,7 @@
 #robustTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
@@ -339,7 +339,7 @@
 #robustText{
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -354,7 +354,7 @@
 
 #twoPhones{
 	display: flex;
-	
+
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -362,8 +362,8 @@
 	gap: 10px;
 	margin-top: 20px;
 
-	
-	
+
+
 }
 
 
@@ -371,7 +371,7 @@
 	fill: #1D1D25;
 	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
 	left: 35px;
-	position: absolute; 
+	position: absolute;
 
 	width: 250px;
 
@@ -384,7 +384,7 @@
 	filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
 	left: 60px;
 	position: relative;
-	
+
 	width: 250px;
 
 	} */
@@ -408,13 +408,13 @@
 	padding-bottom: 17px;
 	color: #FFF;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 25px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
 	letter-spacing: -1.2px;
-	
+
 }
 
 
@@ -425,7 +425,7 @@
 	text-align: justify;
 	color: #FFF;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -455,7 +455,7 @@ background: #52526F;
 #freeOpenTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
@@ -468,7 +468,7 @@ background: #52526F;
 
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -482,7 +482,7 @@ background: #52526F;
 #toolingTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
@@ -494,7 +494,7 @@ background: #52526F;
 #toolingText{
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -528,7 +528,7 @@ footer{
 #footerLinkTitle{
 	color: #FFF;
 	text-align: center;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 20px;
 	font-style: normal;
 	font-weight: bolder;
@@ -541,7 +541,7 @@ footer{
 #footerLinkItems{
 	color: #FFF;
 	text-align: center;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 17px;
 	font-style: normal;
 	font-weight: 400;
@@ -574,11 +574,11 @@ footer{
 		padding: 0px;
 		box-sizing: border-box;
 	}
-	
+
 	#desktop{
 		display: none;
 	}
-	
+
 	nav{
 		padding: 60px;
 		display: flex;
@@ -604,7 +604,7 @@ footer{
 	#navTitle{
 		color: #FFF;
 		text-align: center;
-		font-family: Overpass SemiBold;
+		font-family: 'Overpass' 'SemiBold';
 		font-size: 36px;
 		font-style: normal;
 		font-weight: 600;
@@ -619,7 +619,7 @@ footer{
 	#navText{
 		color: #FFF;
 		text-align: center;
-		font-family: Overpass;
+		font-family: 'Overpass';
 		font-size: 18px;
 		font-style: normal;
 		font-weight: 300;
@@ -643,7 +643,7 @@ footer{
 	#leftButton{
 		color: #FF505C;
 		text-align: right;
-		font-family: Ubuntu;
+		font-family: 'ubuntu';
 		font-size: 16px;
 		font-style: normal;
 		font-weight: 700;
@@ -656,7 +656,7 @@ footer{
 	#rightButton{
 		color: #FFF;
 		text-align: right;
-		font-family: Ubuntu;
+		font-family: 'ubuntu';
 		font-size: 16px;
 		font-style: normal;
 		font-weight: 700;
@@ -664,7 +664,7 @@ footer{
 		border-radius: 28px;
 		border: 1px solid #FFF;
 		padding: 10px;
-		
+
 	}
 
 
@@ -677,37 +677,43 @@ footer{
 	.backgroundSquare{
 		z-index: -1;
 		position: absolute;
-		
-		
+
+
 	}
 
 
 	#backgroundSquare1{
-		
+
 		transform: rotate(180deg);
 		border-radius: 0px 0px 100px 0px;
 		background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
 		bottom: 0px;
 		right: 0px;
 		padding: 50px;
-		
-		
-		
-	
+
+
+
+
 	}
 
 	#backgroundSquare2{
 
-		
-		transform: rotate(-22deg);
-		border-radius: 370.383px;
-		background: linear-gradient(50deg, #FF8F71 0%, #FF3E55 100%);
-		bottom: 0px;
-		left: -90px;
-		padding: 170px;
 
-	
-	}
+		transform: rotate(0deg);
+		/* border-radius: 600.383px; */
+		background: linear-gradient(10deg, #FF8F71 0%, #FF3E55 100%);
+		bottom: 0px;
+		left: 100px;
+		/* padding: 200px; */
+		width: 400px;
+		height: 200px;
+		border-top-left-radius: 250px;
+		border-top-right-radius: 250px;
+		
+		
+		
+		}
+		
 
 	#backgroundSquare3{
 
@@ -717,26 +723,26 @@ footer{
 		top: 0px;
 		left: 20px;
 		padding: 140px;
-	
+
 
 	}
-	
+
 
 	#midSection{
-		
+
 		display: flex;
 		flex-direction: column;
 		padding-top: 100px;
 		padding-left: 20px;
 		padding-right: 20px;
 		position: relative;
-		
+
 	}
 
 	#futureDesign{
 		color: #1F3E5A;
 		text-align: center;
-		font-family: Overpass SemiBold;
+		font-family: 'Overpass' 'SemiBold';
 		font-size: 28px;
 		font-style: normal;
 		font-weight: 600;
@@ -774,20 +780,20 @@ footer{
 #extensibleTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
 	margin-top:90px;
-	
+
 }
 
 
 #extensibleText{
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -804,7 +810,7 @@ footer{
 #robustTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
@@ -817,7 +823,7 @@ footer{
 #robustText{
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -835,7 +841,7 @@ footer{
 
 		position: relative;
 		z-index: 1;
-		
+
 	}
 
 
@@ -843,34 +849,34 @@ footer{
 
 
 
-/* 	
-	
+/*
+
 	#phoneOne{
 		fill: #1D1D25;
 		filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
 		left: 5px;
-		position: absolute; 
-	
+		position: absolute;
+
 		width: 90px;
 		top: 10px;
-	
+
 	}
-	
+
 	#phoneTwo{
 		fill: #1D1D25;
 		filter: drop-shadow(0px 20px 40px rgba(108, 141, 228, 0.24));
 		left: 60px;
 		position: relative;
-		
+
 		width: 90px;
-	
+
 		} */
 
 #card{
 	border-radius: 0px 100px;
 
 	background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
-	padding: 20px; 
+	padding: 20px;
 	position: relative;
 	bottom: 100px;
 }
@@ -881,13 +887,13 @@ footer{
 	padding-bottom: 30px;
 	color: #FFF;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
 	letter-spacing: -1.2px;
-	
+
 }
 
 
@@ -898,7 +904,7 @@ footer{
 	text-align: justify;
 	color: #FFF;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 300;
@@ -920,20 +926,20 @@ footer{
 #freeOpenTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
 	padding: 40px;
-	
+
 	}
-	
+
 	#freeOpenText{
-	
+
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -941,7 +947,7 @@ footer{
 	letter-spacing: 0.5px;
 	padding: 20px;
 	text-align: justify;
-	
+
 	}
 
 
@@ -949,19 +955,19 @@ footer{
 #toolingTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
 	padding: 40px;
-	
+
 	}
-	
+
 	#toolingText{
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -970,9 +976,9 @@ footer{
 	padding: 30px;
 	padding-bottom: 60px;
 	text-align: justify;
-	
-	} 
-	
+
+	}
+
 
 
 footer{
@@ -996,7 +1002,7 @@ footer{
 #footerLinkTitle{
 	color: #FFF;
 	text-align: center;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 20px;
 	font-style: normal;
 	font-weight: bolder;
@@ -1009,7 +1015,7 @@ footer{
 #footerLinkItems{
 	color: #FFF;
 	text-align: center;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 17px;
 	font-style: normal;
 	font-weight: 400;
@@ -1023,8 +1029,8 @@ footer{
 
 
 }
-	
-	
+
+
 
 
 
@@ -1040,18 +1046,18 @@ footer{
 	padding: 0px;
 	box-sizing: border-box;
 	}
-	
+
 	#desktop{
 	display: block;
 	}
-	
-	
+
+
 	#mobile{
 	display: none;
 	}
-	
-	
-	
+
+
+
 	nav{
 	padding: 30px;
 	display: flex;
@@ -1060,78 +1066,80 @@ footer{
 	border-radius: 0px 0px 0px 100px;
 	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 	z-index: 1;
-	
+
 	}
-	
-	#navLogoStrips{
+
+	#navBar{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	/* padding: 20px; */
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	#navProduct{
 	display: flex;
 	flex-direction: row;
 	gap: 10px;
 	padding: 20px;
 	}
-	
+
 	#navProduct span{
 	color: #FFF;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
 	}
-	
-	
+
+
 	#navArrow{
 	padding-bottom: 5px;
-	
+
 	}
-	
-	
-	
-	
+
+#signUpSection{
+	padding-top: 20px;
+}
+
+
 	#login{
 	color: #FFF;
 	text-align: right;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
 	}
-	
+
 	#signUp{
-	color: #FF505C;
-	text-align: right;
-	font-family: Ubuntu;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	border-radius: 28px;
-	background-color: #FFF;
-	padding-top: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
-	
-	
-	}
-	
-	
-	
+		color: #FFF;
+		/* text-align: right; */
+		font-family: 'ubuntu';
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		border-radius: 28px;
+		background-color: #FF7B86;
+		padding: 10px 25px 10px 25px;
+		
+		
+		
+		}
+		
+
+
+
 	#navTitle{
 	color: #FFF;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 36px;
 	font-style: normal;
 	font-weight: 600;
@@ -1142,11 +1150,11 @@ footer{
 	padding-right: 20px;
 	padding-bottom: 20px;
 	}
-	
+
 	#navText{
 	color: #FFF;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 300;
@@ -1154,10 +1162,10 @@ footer{
 	padding-top: 50px;
 	padding-bottom: 50px;
 	}
-	
-	
-	
-	
+
+
+
+
 	#navButtons{
 	display: flex;
 	flex-direction: row;
@@ -1167,14 +1175,14 @@ footer{
 	padding-top: 2px;
 	padding-right: 50px;
 	padding-left: 50px;
-	
-	
+
+
 	}
-	
+
 	#leftButton{
 	color: #FF505C;
 	text-align: right;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 700;
@@ -1183,11 +1191,11 @@ footer{
 	background: #FFF;
 	padding: 10px;
 	}
-	
+
 	#rightButton{
 	color: #FFF;
 	text-align: right;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 700;
@@ -1196,132 +1204,139 @@ footer{
 	border: 1px solid #FFF;
 	padding: 10px;
 	}
-	
-	
-	
-	
+
+
+
+
 	.raisedItems{
 	position:relative;
 	z-index: 3;
 	}
-	
+
 	.backgroundSquare{
 	z-index: -1;
 	position: absolute;
-	
-	
+
+
 	}
-	
-	
+
+
 	#backgroundSquare1{
-	
+
 	transform: rotate(180deg);
 	border-radius: 0px 0px 100px 0px;
 	background: linear-gradient(722deg, #FF8F71 0%, #FF3E55 100%);
 	bottom: 0px;
 	right: 0px;
 	padding: 80px;
-	
-	
-	
-	
+
+
+
+
 	}
-	
+
 	#backgroundSquare2{
-	
-	
-	transform: rotate(0deg);
-	border-radius: 600.383px; 
-	background: linear-gradient(10deg, #FF8F71 0%, #FF3E55 100%);
-	bottom: 0px;
-	left: 200px;
-	padding: 200px;
-	
-	
-	
-	}
-	
+
+
+		transform: rotate(0deg);
+		/* border-radius: 600.383px; */
+		background: linear-gradient(10deg, #FF8F71 0%, #FF3E55 100%);
+		bottom: 0px;
+		left: 200px;
+		/* padding: 200px; */
+		width: 400px;
+		height: 200px;
+		border-top-left-radius: 400px;
+		border-top-right-radius: 400px;
+		
+		
+		
+		}
+		
+
 	#backgroundSquare3{
-	
+
 	transform: rotate(90deg);
 	border-radius: 0px 0px 100px 0px;
 	background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
 	top: 0px;
-	right: 0px;
-	padding: 70px;
-	
-	
+	left: 0px;
+	/* padding: 30px; */
+	height: 100px;
+	width: 100px;
+
+
 	}
-	
-	
+
+
 	#midSection{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
 	gap: 30px;
-	
+
 	}
-	
-	
-	
+
+
+
 	#futureDesign{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 40px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
 	letter-spacing: -1.2px;
 	padding: 60px;
-	
+
 	}
-	
-	
+
+
 	#splitContent{
 	display: flex;
-	flex-direction: row;	
+	flex-direction: row;
 	position: relative;
 	gap: 20px;
-	
+
 	}
-	
-	
-	
+
+
+
 	#textContents{
 	display: flex;
 	flex-direction: column;
 	position: relative;
 	width: 600px;
-	
+
 	}
-	
-	
-	
-	
+
+
+
+
 	#extensibleTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
 	padding: 30px;
 	text-align: center;
-	
-	
-	
-	
-	
+
+
+
+
+
 	}
-	
-	
+
+
 	#extensibleText{
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -1329,48 +1344,48 @@ footer{
 	letter-spacing: 0.5px;
 	text-align: justify;
 	padding: 50px;
-	
-	
-	
+
+
+
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 	#robustTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
 	padding: 30px;
-	
-	
-	
-	
-	
+
+
+
+
+
 	}
-	
-	
+
+
 	#robustText{
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
 	line-height: 28px;
 	letter-spacing: 0.5px;
 	padding: 50px;
-	
-	
+
+
 	}
-	
-	
-	
+
+
+
 #circles{
 	position: absolute;
 	right: 0px;
@@ -1381,18 +1396,18 @@ footer{
 
 
 
-	
+
 	#card{
-	
+
 	border-radius: 0px 100px;
 	background: linear-gradient(135deg, #2D2E40 0%, #3F4164 100%);
 
 	padding-left: 10px;
 	position: relative;
 	padding: 20px;
-	
+
 	}
-	
+
 
 
 #phones{
@@ -1401,16 +1416,16 @@ footer{
 	top: 20px;
 	bottom: 80px;
 	z-index: 1;
-	
-	
-	
+
+
+
 	}
 
 
-	
+
 	#cardTitle{
 	color: #FFF;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 25px;
 	font-style: normal;
 	font-weight: 600;
@@ -1419,15 +1434,15 @@ footer{
 	padding: 15px;
 	padding-left: 400px;
 
-	
-	
+
+
 	}
-	
-	
+
+
 	#cardText{
-	
+
 	color: #FFF;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -1437,12 +1452,12 @@ footer{
 	padding-left: 400px;
 
 
-	
-	}
-	
 
-	
-	
+	}
+
+
+
+
 
 
 	/* #bottomSection{
@@ -1452,31 +1467,31 @@ footer{
 	gap: 10px;
 
 	} */
-	
 
-	/* 	
+
+	/*
 	#bottomSectionText{
 	display: flex;
 	flex-direction: column;
 	}
-	
+
 	#freeOpenTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
 	padding: 40px;
-	
+
 	}
-	
+
 	#freeOpenText{
-	
+
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -1484,25 +1499,25 @@ footer{
 	letter-spacing: 0.5px;
 	padding: 20px;
 	text-align: justify;
-	
+
 	}
-	
+
 	#toolingTitle{
 	color: #1F3E5A;
 	text-align: center;
-	font-family: Overpass SemiBold;
+	font-family: 'Overpass' 'SemiBold';
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 32px;
 	padding: 40px;
-	
+
 	}
-	
+
 	#toolingText{
 	color: #4C5862;
 	text-align: center;
-	font-family: Overpass;
+	font-family: 'Overpass';
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 300;
@@ -1511,27 +1526,27 @@ footer{
 	padding: 30px;
 	padding-bottom: 60px;
 	text-align: justify;
-	
+
 	}
 	 */
-	
+
 
 
 	 #laptopSection{
 
 		width: 100%;
 		height: auto;
-		
-	
+
+
 	}
-	
 
 
 
 
 
-	
-	
+
+
+
 	footer{
 	display: flex;
 	flex-direction: row;
@@ -1539,18 +1554,18 @@ footer{
 	border-radius: 0px 100px 0px 0px;
 	background: #24242C;
 	padding: 20px;
-	
+
 	}
-	
+
 	#footerLogo{
 	/* padding: 40px; */
 	}
-	
-	
+
+
 	#footerLinkTitle{
 	color: #FFF;
 	text-align: center;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 20px;
 	font-style: normal;
 	font-weight: bolder;
@@ -1558,25 +1573,25 @@ footer{
 	padding: 40px;
 	text-transform: capitalize;
 	}
-	
-	
+
+
 	#footerLinkItems{
 	color: #FFF;
 	text-align: center;
-	font-family: Ubuntu;
+	font-family: 'ubuntu';
 	font-size: 17px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 33px;
-	
+
 	text-transform: capitalize;
 	}
-	
-	
-	
-	
+
+
+
+
 	}
-	
+
 
 
 /* desktop screens */
@@ -1616,11 +1631,11 @@ z-index: 1;
 
 }
 
-#navLogoStrips{
+#navBar{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-/* padding: 20px; */
+padding: 20px;
 }
 
 
@@ -1631,13 +1646,13 @@ justify-content: space-between;
 display: flex;
 flex-direction: row;
 gap: 10px;
-padding: 20px;
+padding-bottom: 15px;
 }
 
 #navProduct span{
 color: #FFF;
-font-family: Ubuntu;
-font-size: 16px;
+font-family: ''ubuntu'';
+font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -1645,36 +1660,41 @@ line-height: normal;
 
 
 #navArrow{
-padding-bottom: 5px;
+padding-top: 5px;
 
 }
 
-
+#navSignUp{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 20px;
+}
 
 
 #login{
 color: #FFF;
 text-align: right;
-font-family: Ubuntu;
+font-family: 'ubuntu';
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+padding-right: 40px;
 }
 
 #signUp{
-color: #FF505C;
-text-align: right;
-font-family: Ubuntu;
+color: #FFF;
+/* text-align: right; */
+font-family: 'ubuntu';
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 border-radius: 28px;
-background-color: #FFF;
-padding-top: 10px;
-padding-left: 5px;
-padding-right: 5px;
+background-color: #FF7B86;
+padding: 10px 25px 10px 25px;
+
 
 
 }
@@ -1684,7 +1704,7 @@ padding-right: 5px;
 #navTitle{
 color: #FFF;
 text-align: center;
-font-family: Overpass SemiBold;
+font-family: 'Overpass' 'SemiBold';
 font-size: 36px;
 font-style: normal;
 font-weight: 600;
@@ -1699,7 +1719,7 @@ padding-bottom: 20px;
 #navText{
 color: #FFF;
 text-align: center;
-font-family: Overpass;
+font-family: 'Overpass';
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
@@ -1727,7 +1747,7 @@ padding-left: 50px;
 #leftButton{
 color: #FF505C;
 text-align: right;
-font-family: Ubuntu;
+font-family: 'ubuntu';
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -1740,7 +1760,7 @@ padding: 10px;
 #rightButton{
 color: #FFF;
 text-align: right;
-font-family: Ubuntu;
+font-family: 'ubuntu';
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -1784,11 +1804,15 @@ padding: 80px;
 
 
 transform: rotate(0deg);
-border-radius: 600.383px; 
+/* border-radius: 600.383px; */
 background: linear-gradient(10deg, #FF8F71 0%, #FF3E55 100%);
 bottom: 0px;
 left: 200px;
-padding: 200px;
+/* padding: 200px; */
+width: 850px;
+height: 400px;
+border-top-left-radius: 400px;
+border-top-right-radius: 400px;
 
 
 
@@ -1814,7 +1838,7 @@ padding: 70px;
 }
 
 
-/* 
+/*
 #midSection{
 display: flex;
 flex-direction: column;
@@ -1828,7 +1852,7 @@ gap: 30px;
 #futureDesign{
 color: #1F3E5A;
 text-align: center;
-font-family: Overpass SemiBold;
+font-family: 'Overpass' 'SemiBold';
 font-size: 40px;
 font-style: normal;
 font-weight: 600;
@@ -1841,7 +1865,7 @@ padding: 60px;
 
 #splitContent{
 display: flex;
-flex-direction: row;	
+flex-direction: row;
 position: relative;
 gap: 20px;
 
@@ -1863,7 +1887,7 @@ width: 800px;
 #extensibleTitle{
 color: #1F3E5A;
 text-align: center;
-font-family: Overpass SemiBold;
+font-family: 'Overpass' 'SemiBold';
 font-size: 28px;
 font-style: normal;
 font-weight: 600;
@@ -1881,7 +1905,7 @@ text-align: center;
 #extensibleText{
 color: #4C5862;
 text-align: center;
-font-family: Overpass;
+font-family: 'Overpass';
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
@@ -1901,7 +1925,7 @@ padding: 20px;
 #robustTitle{
 color: #1F3E5A;
 text-align: center;
-font-family: Overpass SemiBold;
+font-family: 'Overpass' 'SemiBold';
 font-size: 28px;
 font-style: normal;
 font-weight: 600;
@@ -1918,7 +1942,7 @@ padding-left: 50px;
 #robustText{
 color: #4C5862;
 text-align: center;
-font-family: Overpass;
+font-family: 'Overpass';
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
@@ -1939,8 +1963,8 @@ padding: 50px;
 } */
 
 
-		
-	
+
+
 
 
 
@@ -1963,7 +1987,7 @@ margin-top: 50px;
 
 #cardTitle{
 color: #FFF;
-font-family: Overpass SemiBold;
+font-family: 'Overpass' 'SemiBold';
 font-size: 40px;
 font-style: normal;
 font-weight: 600;
@@ -1980,14 +2004,14 @@ padding-left: 400px;
 #cardText{
 
 color: #FFF;
-font-family: Overpass;
+font-family: 'Overpass';
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
 line-height: 28px;
 letter-spacing: 0.5px;
 padding-left: 400px;
-padding-right: 150px; 
+padding-right: 150px;
 padding-bottom: 20px;
 
 }
@@ -2036,7 +2060,7 @@ width: 150px;
 	height: 650px;
 }
 
-/* 
+/*
 #bottomSection{
 padding: 20px;
 display: flex;
@@ -2054,7 +2078,7 @@ flex-direction: column;
 #freeOpenTitle{
 color: #1F3E5A;
 text-align: center;
-font-family: Overpass SemiBold;
+font-family: 'Overpass' 'SemiBold';
 font-size: 28px;
 font-style: normal;
 font-weight: 600;
@@ -2067,7 +2091,7 @@ padding: 40px;
 
 color: #4C5862;
 text-align: center;
-font-family: Overpass;
+font-family: 'Overpass';
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
@@ -2081,7 +2105,7 @@ text-align: justify;
 #toolingTitle{
 color: #1F3E5A;
 text-align: center;
-font-family: Overpass SemiBold;
+font-family: 'Overpass' 'SemiBold';
 font-size: 28px;
 font-style: normal;
 font-weight: 600;
@@ -2093,7 +2117,7 @@ padding: 40px;
 #toolingText{
 color: #4C5862;
 text-align: center;
-font-family: Overpass;
+font-family: 'Overpass';
 font-size: 16px;
 font-style: normal;
 font-weight: 300;
@@ -2126,7 +2150,7 @@ padding: 40px;
 #footerLinkTitle{
 color: #FFF;
 text-align: center;
-font-family: Ubuntu;
+font-family: 'ubuntu';
 font-size: 20px;
 font-style: normal;
 font-weight: bolder;
@@ -2139,7 +2163,7 @@ text-transform: capitalize;
 #footerLinkItems{
 color: #FFF;
 text-align: center;
-font-family: Ubuntu;
+font-family: 'ubuntu';
 font-size: 17px;
 font-style: normal;
 font-weight: 400;
